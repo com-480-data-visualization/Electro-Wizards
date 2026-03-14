@@ -1,0 +1,93 @@
+{
+    "zone": "AZ",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2023-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-09T20:20:37.719Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 2035554
+        },
+        {
+            "datetime": "2023-02-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1826348
+        },
+        {
+            "datetime": "2023-03-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1910336
+        },
+        {
+            "datetime": "2023-04-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1663850
+        },
+        {
+            "datetime": "2023-05-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1610875
+        },
+        {
+            "datetime": "2023-06-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1613183
+        },
+        {
+            "datetime": "2023-07-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 2055504
+        },
+        {
+            "datetime": "2023-08-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 2317004
+        },
+        {
+            "datetime": "2023-09-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1660784
+        },
+        {
+            "datetime": "2023-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1702260
+        },
+        {
+            "datetime": "2023-11-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1770339
+        },
+        {
+            "datetime": "2023-12-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:13:52.101Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 1985819
+        }
+    ],
+    "source": "gas",
+    "aggregationPeriod": "monthly"
+}

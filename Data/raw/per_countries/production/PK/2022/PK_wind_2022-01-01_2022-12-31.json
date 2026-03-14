@@ -1,0 +1,93 @@
+{
+    "zone": "PK",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2022-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-07T23:00:25.543Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 190075
+        },
+        {
+            "datetime": "2022-02-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 190000
+        },
+        {
+            "datetime": "2022-03-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 270000
+        },
+        {
+            "datetime": "2022-04-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 460000
+        },
+        {
+            "datetime": "2022-05-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 780000
+        },
+        {
+            "datetime": "2022-06-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 810000
+        },
+        {
+            "datetime": "2022-07-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 520000
+        },
+        {
+            "datetime": "2022-08-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 390000
+        },
+        {
+            "datetime": "2022-09-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 470000
+        },
+        {
+            "datetime": "2022-10-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 220000
+        },
+        {
+            "datetime": "2022-11-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 160000
+        },
+        {
+            "datetime": "2022-12-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:25:10.819Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 210000
+        }
+    ],
+    "source": "wind",
+    "aggregationPeriod": "monthly"
+}

@@ -1,0 +1,81 @@
+{
+    "zone": "AU-NSW",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 781826
+        },
+        {
+            "datetime": "2021-02-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 684249
+        },
+        {
+            "datetime": "2021-03-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 650218
+        },
+        {
+            "datetime": "2021-04-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 652306
+        },
+        {
+            "datetime": "2021-05-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 545646
+        },
+        {
+            "datetime": "2021-06-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 381199
+        },
+        {
+            "datetime": "2021-07-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 451867
+        },
+        {
+            "datetime": "2021-08-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 654111
+        },
+        {
+            "datetime": "2021-09-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 798491
+        },
+        {
+            "datetime": "2021-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 922628
+        },
+        {
+            "datetime": "2021-11-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 726383
+        },
+        {
+            "datetime": "2021-12-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:16:19.811Z",
+            "estimationMethod": "MEASURED",
+            "value": 1195305
+        }
+    ],
+    "source": "solar",
+    "aggregationPeriod": "monthly"
+}

@@ -1,0 +1,93 @@
+{
+    "zone": "CA-NB",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2023-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-07T15:44:52.673Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 111733
+        },
+        {
+            "datetime": "2023-02-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 93894
+        },
+        {
+            "datetime": "2023-03-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 111843
+        },
+        {
+            "datetime": "2023-04-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 102483
+        },
+        {
+            "datetime": "2023-05-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 120162
+        },
+        {
+            "datetime": "2023-06-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 98807
+        },
+        {
+            "datetime": "2023-07-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 97848
+        },
+        {
+            "datetime": "2023-08-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 93902
+        },
+        {
+            "datetime": "2023-09-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 93216
+        },
+        {
+            "datetime": "2023-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 109325
+        },
+        {
+            "datetime": "2023-11-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 105865
+        },
+        {
+            "datetime": "2023-12-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 98875
+        }
+    ],
+    "source": "coal",
+    "aggregationPeriod": "monthly"
+}

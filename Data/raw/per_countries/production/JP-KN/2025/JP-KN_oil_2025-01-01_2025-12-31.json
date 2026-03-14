@@ -1,0 +1,93 @@
+{
+    "zone": "JP-KN",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2025-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-06T10:06:52.772Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 478106
+        },
+        {
+            "datetime": "2025-02-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 442277
+        },
+        {
+            "datetime": "2025-03-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 368586
+        },
+        {
+            "datetime": "2025-04-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 279714
+        },
+        {
+            "datetime": "2025-05-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 273214
+        },
+        {
+            "datetime": "2025-06-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 356296
+        },
+        {
+            "datetime": "2025-07-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 485179
+        },
+        {
+            "datetime": "2025-08-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 464267
+        },
+        {
+            "datetime": "2025-09-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:12:43.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 378364
+        },
+        {
+            "datetime": "2025-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 295382
+        },
+        {
+            "datetime": "2025-11-01T00:00:00.000Z",
+            "updatedAt": "2026-03-01T10:22:38.567Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 267804
+        },
+        {
+            "datetime": "2025-12-01T00:00:00.000Z",
+            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 369046
+        }
+    ],
+    "source": "oil",
+    "aggregationPeriod": "monthly"
+}

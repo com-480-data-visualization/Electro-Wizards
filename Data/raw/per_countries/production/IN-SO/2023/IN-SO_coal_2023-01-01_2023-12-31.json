@@ -1,0 +1,93 @@
+{
+    "zone": "IN-SO",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2023-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-07T15:44:52.673Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 17541500
+        },
+        {
+            "datetime": "2023-02-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 17370314
+        },
+        {
+            "datetime": "2023-03-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 19177208
+        },
+        {
+            "datetime": "2023-04-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 18773130
+        },
+        {
+            "datetime": "2023-05-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 18267674
+        },
+        {
+            "datetime": "2023-06-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 18558944
+        },
+        {
+            "datetime": "2023-07-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 16668823
+        },
+        {
+            "datetime": "2023-08-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 16370960
+        },
+        {
+            "datetime": "2023-09-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 18026334
+        },
+        {
+            "datetime": "2023-10-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 19674120
+        },
+        {
+            "datetime": "2023-11-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 17339456
+        },
+        {
+            "datetime": "2023-12-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:56:56.024Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
+            "value": 16758721
+        }
+    ],
+    "source": "coal",
+    "aggregationPeriod": "monthly"
+}

@@ -1,0 +1,81 @@
+{
+    "zone": "US-NE-ISNE",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-07T23:04:42.039Z",
+            "estimationMethod": "MEASURED",
+            "value": 535122
+        },
+        {
+            "datetime": "2021-02-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 498984
+        },
+        {
+            "datetime": "2021-03-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 549011
+        },
+        {
+            "datetime": "2021-04-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 452859
+        },
+        {
+            "datetime": "2021-05-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 448995
+        },
+        {
+            "datetime": "2021-06-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 487771
+        },
+        {
+            "datetime": "2021-07-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 519574
+        },
+        {
+            "datetime": "2021-08-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 530637
+        },
+        {
+            "datetime": "2021-09-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 488278
+        },
+        {
+            "datetime": "2021-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 491778
+        },
+        {
+            "datetime": "2021-11-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 478085
+        },
+        {
+            "datetime": "2021-12-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 535513
+        }
+    ],
+    "source": "biomass",
+    "aggregationPeriod": "monthly"
+}

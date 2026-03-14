@@ -1,0 +1,3292 @@
+{
+    "zone": "GB",
+    "data": [
+        {
+            "zone": "GB",
+            "datetime": "2022-01-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 71.78,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 49.64,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 72.51,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 136.79,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 166.59,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 202.19,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 186.98,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 179.83,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 173.07,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 211.89,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 202.05,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 193.94,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 184.9,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 334.46,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 199.57,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 177.14,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 280.71,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 202.06,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 173.51,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 187.46,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 185.34,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 170.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 173.83,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 280.76,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 234.13,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 191.92,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 188.34,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 192.21,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 153.87,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 184.98,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-01-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 179.24,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 172.37,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 174.39,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 165.8,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 161.75,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 157.37,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 130.95,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 180.25,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 170.74,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 166.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 167.2,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 177.91,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 160.04,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 170.01,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 172.88,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 176.35,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 145.85,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 126.34,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 171.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 150.12,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 117.89,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 147.01,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 154.89,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 159.1,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 167.52,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 235.8,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 199.63,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 190.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-02-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 195.25,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 271.89,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 241.35,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 351.39,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 412.63,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 335.2,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 365.86,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 368.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 458.3,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 392.21,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 298.74,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 239.74,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 212.45,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 186.24,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 245.47,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 237.4,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 255.2,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 217.62,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 206.47,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 185.65,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 181.7,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 196.72,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 196.78,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 203.85,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 214.34,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 233.14,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 201.52,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 200.32,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 211.61,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 214.16,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 236.45,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-03-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 246.47,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 243.95,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 251.04,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 230.38,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 190.41,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 204.66,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 185.14,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 183.31,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 210.75,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 204.3,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 214.48,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 191.88,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 194.15,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 186.41,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 189.46,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 174.65,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 129.18,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 105.78,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 119.55,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 170.07,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 163.19,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 158.7,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 142.49,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 131.85,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 137.45,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 173.72,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 176.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 175.21,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 187.54,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 182.11,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-04-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 149.25,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 124.98,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 147.59,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 174.73,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 168.89,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 161.23,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 140.64,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 138.54,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 140.15,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 104.96,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 90.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 68.15,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 81.19,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 79.63,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 120.09,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 94.58,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 115.82,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 127.88,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 121.65,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 119.98,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 116.14,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 113.59,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 128.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 159.19,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 141.89,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 118.17,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 114.25,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 106.73,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 122.17,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 147.87,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 179.5,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-05-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 172.76,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 173.76,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 151.32,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 120.13,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 129.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 139.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 137.82,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 158.21,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 135.08,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 122.83,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 78.85,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 41.4,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 114.14,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 139.27,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 159.4,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 177.18,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 191.97,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 200.04,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 155.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 150.01,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 190.65,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 229.03,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 209.61,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 246.3,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 189.72,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 154.79,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 145,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 187.23,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 155.55,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 227.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-06-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 282.77,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 210.29,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 166.79,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 175.07,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 170.11,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 228.46,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 226.69,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 201.41,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 234.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 197.89,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 191.88,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 276.78,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 244.1,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 275.09,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 292.13,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 247.71,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 196.62,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 186.85,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 327.15,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 246.88,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 258.5,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 285.6,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 276.14,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 248.21,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 208.91,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 224.6,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 265.29,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 313.42,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 318.83,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 314.93,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 280.92,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-07-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 260.16,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 310.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 227.36,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 249.8,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 272.85,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 280.6,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 242.48,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 224.84,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 276.15,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 284.56,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 277.8,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 304.33,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 355.97,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 313.14,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 307.98,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 356.54,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 379.36,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 429.89,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 399.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 389.86,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 317.19,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 332.97,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 508.52,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 536.83,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 530.19,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 507.57,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 577.61,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 496.01,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 436.3,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 500.77,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 517.92,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-08-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 408.13,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 390.41,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 333.91,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 255.21,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 234.62,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 243.72,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 312.7,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 274.57,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 277.09,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 283.04,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 323.97,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 314.05,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 319.44,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 353.53,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 341.01,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 317.32,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 276.61,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 199.79,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 211.99,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 242.69,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 311.45,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 232.17,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 249.82,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 269.58,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 237.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 195.93,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 172.39,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 190,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 216.25,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 292.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-09-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 173.84,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 99.86,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 190.54,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 235.1,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 164.99,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 122.07,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 82.94,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 116.6,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 160.36,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 120.76,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 147.41,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 195.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 168.91,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 203.47,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 181.64,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 124.68,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 105.54,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 101.01,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 139.62,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 65.27,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 101.14,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 104.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 107.05,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 62.5,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 62.9,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 84.06,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 68.39,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 79.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 80.43,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 89.51,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 87.06,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-10-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 113.97,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 88.12,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 74.49,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 107.78,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 163.33,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 111.18,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 101.09,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 87.71,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 89.57,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 108.11,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 83.93,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 76.68,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 105.47,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 108.94,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 144.84,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 112.49,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 131.36,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 129.17,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 112,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 128.7,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 116.89,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 140.45,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 203.52,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 123.59,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 118.71,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 152.57,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 143.09,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 138.02,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 236.17,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 378.97,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-11-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 347.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 340.19,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 321.44,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 262.33,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 257.37,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 298.36,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 310.56,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 311.02,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 367.37,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 378.02,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 307.64,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 324.66,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 455.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 396.88,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 362.32,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 353.31,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 366.37,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 258.04,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 220.02,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 167.28,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 192.68,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 184.38,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 209.08,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 171.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 106.12,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 116.65,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 121.83,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 133.63,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 105.27,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 63.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com, rte-france.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 96.38,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "GB",
+            "datetime": "2022-12-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:42:52.007Z",
+            "updatedAt": "2025-11-01T19:42:52.007Z",
+            "value": 117.18,
+            "unit": "GBP/MWh",
+            "source": "nordpool.com, rte-france.com"
+        }
+    ],
+    "temporalGranularity": "daily",
+    "aggregationPeriod": "daily"
+}

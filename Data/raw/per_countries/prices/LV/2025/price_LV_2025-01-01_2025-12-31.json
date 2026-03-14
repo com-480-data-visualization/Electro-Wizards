@@ -1,0 +1,3292 @@
+{
+    "zone": "LV",
+    "data": [
+        {
+            "zone": "LV",
+            "datetime": "2025-01-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 62.51,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 98.69,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 85.97,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 94.35,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 91.92,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 79.3,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 79.32,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 110.19,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 109.84,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 95.97,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 79.43,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 80.36,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 96.11,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 60.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 152.88,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 70.32,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 54.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 42.65,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 59.73,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 181.11,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 151.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 151.65,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 96.75,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 102.78,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 17.11,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 76.77,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 75.88,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 100.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 89.3,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 83,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-01-31T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 121.77,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 108.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 133.5,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 154.57,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 157.14,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 121.42,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 136.75,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 113.64,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.27,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 131.25,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 149.52,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 189.64,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 227.78,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 172.95,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 183.08,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 266.2,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 151.26,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 157.24,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 169.95,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 175.58,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 151.15,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 93.54,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 104.57,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 113.38,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 136.91,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 132.23,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 164.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 196.11,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-02-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 193.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 132.09,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 64.78,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 24.02,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 27.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 23.5,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 30.71,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 97.48,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 68.84,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 119.35,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 122.11,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 126.98,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 150,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 173.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 124.33,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.89,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 22.2,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 84.14,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 64.5,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 61.01,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 93.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 109.86,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 6.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 14.92,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 120.82,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 88.93,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 172.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 94.95,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 109.84,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 34.53,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 124.69,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-03-31T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 305.38,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 167.63,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 67.72,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.14,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 53.02,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 29.07,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 51.79,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 94.38,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 91.38,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 46.95,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 71.61,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 79.18,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 67.07,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 39.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 70.14,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 46.59,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 52.09,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 87.7,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.47,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 70.53,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 69.63,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 72.95,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 145.71,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 117.88,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 132.12,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 85.88,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 52.14,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 56.99,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 66.04,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 74.41,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-04-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 120.33,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 79.28,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 37.74,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 40.55,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 50.79,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 61.95,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 77.89,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 99.11,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 109.75,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 157.29,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 71.23,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 62.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 88.75,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 85.48,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 91.55,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 55.65,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 51.67,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 33.42,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 35.37,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 70.66,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 56.99,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 43.36,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 75.57,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 96.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 75.62,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 23.01,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 92.11,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 56.05,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 89.97,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 66.93,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 20.98,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-05-31T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 44.44,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 28.12,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 54.63,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 67.3,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 50.92,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 83.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 50.41,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 31.42,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 32.55,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 32.17,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 79.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 134.41,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 58.04,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 51.45,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 34.34,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 59.05,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 58.81,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 43.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 50.54,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 35.56,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 25.48,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 22.51,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 12.89,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 12.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 2.66,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 28.91,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.34,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 54.88,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 2.78,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": -2.69,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-06-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 27.73,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 46.9,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 56.55,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 11.48,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 24.71,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 22.25,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 27.33,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 78.66,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 57.64,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 83.65,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 64.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 8.48,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 10.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 16.47,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 41.18,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 59.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 82.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 59.64,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 57.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 29.35,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 36.43,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 51.65,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 40.51,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 54.86,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 83.07,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.72,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 40.96,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 58.56,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 54.05,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 14.44,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 36.64,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-07-31T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 58.1,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 93.69,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 63.71,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 38.81,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 5.85,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 2.67,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 33.31,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 77.53,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 50.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 26.69,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 76.4,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 95.23,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 115.33,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 116.41,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 70.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 45.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 50.97,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 111.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 78.71,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 119.79,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 138.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 131.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 70.05,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 67.78,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 85.5,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 113.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 109,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 139.17,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 111.91,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 82.76,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-08-31T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 97.88,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 115.76,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 126.53,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 103.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 124.37,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 110.93,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 85.9,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 73.76,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 134.07,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 131.86,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 92.51,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 45.71,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 112.73,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 76.08,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 58.51,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 69.26,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 45.97,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 74.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 79.91,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 86.54,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 11.87,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 4.99,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 52.82,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 65.75,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 83.5,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 107.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 123.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 92.61,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:40:36.163Z",
+            "updatedAt": "2025-10-30T12:40:36.163Z",
+            "value": 36.51,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 84.8,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-09-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 111.64,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-01T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 125.28,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-02T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 116.19,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-03T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 138.16,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-04T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 7.04,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-05T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 11.61,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-06T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 148.95,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-07T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 291.86,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-08T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 110.57,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-09T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 135.48,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-10T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 122.02,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-11T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 56.23,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-12T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 18.08,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-13T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 115.33,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-14T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 200.85,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-15T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 141.28,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-16T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 106.73,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-17T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 143.74,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-18T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 79.77,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-19T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 124.34,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-20T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 167.69,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-21T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 27.16,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-22T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 85.44,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-23T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 104.72,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-24T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 88.98,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-25T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 38.05,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-26T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 45.17,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-27T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 130.69,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-28T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 107.13,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-29T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 118.78,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-30T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-10-30T12:26:48.414Z",
+            "value": 69.63,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-10-31T00:00:00.000Z",
+            "createdAt": "2025-10-30T12:26:48.414Z",
+            "updatedAt": "2025-11-01T00:01:42.397Z",
+            "value": 80.64,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T00:01:42.397Z",
+            "updatedAt": "2025-11-01T19:45:07.581Z",
+            "value": 66.98,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:45:07.581Z",
+            "updatedAt": "2025-11-03T00:01:25.686Z",
+            "value": 75.38,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-03T00:00:00.000Z",
+            "createdAt": "2025-11-03T00:01:25.686Z",
+            "updatedAt": "2025-11-04T13:40:02.494Z",
+            "value": 207.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-04T00:00:00.000Z",
+            "createdAt": "2025-11-04T13:40:02.494Z",
+            "updatedAt": "2025-11-04T13:40:02.494Z",
+            "value": 59.54,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-05T00:00:00.000Z",
+            "createdAt": "2025-11-06T00:00:56.656Z",
+            "updatedAt": "2025-11-06T00:00:56.656Z",
+            "value": 59.86,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-06T00:00:00.000Z",
+            "createdAt": "2025-11-06T00:00:56.656Z",
+            "updatedAt": "2025-11-07T00:00:55.262Z",
+            "value": 84.19,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-07T00:00:00.000Z",
+            "createdAt": "2025-11-07T00:00:55.262Z",
+            "updatedAt": "2025-11-08T00:01:10.359Z",
+            "value": 81.55,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-08T00:00:00.000Z",
+            "createdAt": "2025-11-08T00:01:10.359Z",
+            "updatedAt": "2025-11-09T00:00:53.055Z",
+            "value": 85.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-09T00:00:00.000Z",
+            "createdAt": "2025-11-09T00:00:53.055Z",
+            "updatedAt": "2025-11-10T00:00:52.956Z",
+            "value": 107.68,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-10T00:00:00.000Z",
+            "createdAt": "2025-11-10T00:00:52.956Z",
+            "updatedAt": "2025-11-11T00:01:36.613Z",
+            "value": 167.12,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-11T00:00:00.000Z",
+            "createdAt": "2025-11-11T00:01:36.613Z",
+            "updatedAt": "2025-11-12T00:01:38.397Z",
+            "value": 151.92,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-12T00:00:00.000Z",
+            "createdAt": "2025-11-12T00:01:38.397Z",
+            "updatedAt": "2025-11-13T00:01:04.889Z",
+            "value": 94.92,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-13T00:00:00.000Z",
+            "createdAt": "2025-11-13T00:01:04.889Z",
+            "updatedAt": "2025-11-14T00:01:06.211Z",
+            "value": 25.93,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-14T00:00:00.000Z",
+            "createdAt": "2025-11-14T00:01:06.211Z",
+            "updatedAt": "2025-11-15T00:01:16.478Z",
+            "value": 108.42,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-15T00:00:00.000Z",
+            "createdAt": "2025-11-15T00:01:16.478Z",
+            "updatedAt": "2025-11-16T00:01:00.976Z",
+            "value": 64.53,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-16T00:00:00.000Z",
+            "createdAt": "2025-11-16T00:01:00.976Z",
+            "updatedAt": "2025-11-17T00:00:58.274Z",
+            "value": 73.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-17T00:00:00.000Z",
+            "createdAt": "2025-11-17T00:00:58.274Z",
+            "updatedAt": "2025-11-18T00:01:13.173Z",
+            "value": 128.4,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-18T00:00:00.000Z",
+            "createdAt": "2025-11-18T00:01:13.173Z",
+            "updatedAt": "2025-11-19T00:03:34.644Z",
+            "value": 110.34,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-19T00:00:00.000Z",
+            "createdAt": "2025-11-19T00:03:34.644Z",
+            "updatedAt": "2025-11-20T00:02:14.059Z",
+            "value": 121.4,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-20T00:00:00.000Z",
+            "createdAt": "2025-11-20T00:02:14.059Z",
+            "updatedAt": "2025-11-21T00:02:47.749Z",
+            "value": 130.75,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-21T00:00:00.000Z",
+            "createdAt": "2025-11-21T00:02:47.749Z",
+            "updatedAt": "2025-11-22T00:02:44.068Z",
+            "value": 144.39,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-22T00:00:00.000Z",
+            "createdAt": "2025-11-22T00:02:44.068Z",
+            "updatedAt": "2025-11-23T00:01:32.240Z",
+            "value": 89.82,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-23T00:00:00.000Z",
+            "createdAt": "2025-11-23T00:01:32.240Z",
+            "updatedAt": "2025-11-24T00:04:07.552Z",
+            "value": 92.76,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-24T00:00:00.000Z",
+            "createdAt": "2025-11-24T00:04:07.552Z",
+            "updatedAt": "2025-11-25T00:02:30.835Z",
+            "value": 187.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-25T00:00:00.000Z",
+            "createdAt": "2025-11-25T00:02:30.835Z",
+            "updatedAt": "2025-11-26T00:03:25.105Z",
+            "value": 270.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-26T00:00:00.000Z",
+            "createdAt": "2025-11-26T00:03:25.105Z",
+            "updatedAt": "2025-11-27T00:02:54.429Z",
+            "value": 162.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-27T00:00:00.000Z",
+            "createdAt": "2025-11-27T00:02:54.429Z",
+            "updatedAt": "2025-11-28T00:01:37.594Z",
+            "value": 188.47,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-28T00:00:00.000Z",
+            "createdAt": "2025-11-28T00:01:37.594Z",
+            "updatedAt": "2025-11-29T00:04:07.680Z",
+            "value": 37.04,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-29T00:00:00.000Z",
+            "createdAt": "2025-11-29T00:04:07.680Z",
+            "updatedAt": "2025-11-30T00:03:57.690Z",
+            "value": 53.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-11-30T00:00:00.000Z",
+            "createdAt": "2025-11-30T00:03:57.690Z",
+            "updatedAt": "2025-11-30T15:33:23.345Z",
+            "value": 94.83,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-01T00:00:00.000Z",
+            "createdAt": "2025-11-30T15:33:23.345Z",
+            "updatedAt": "2025-12-02T00:03:49.099Z",
+            "value": 202.46,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-02T00:00:00.000Z",
+            "createdAt": "2025-12-02T00:03:49.099Z",
+            "updatedAt": "2025-12-03T00:03:08.736Z",
+            "value": 176.62,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-03T00:00:00.000Z",
+            "createdAt": "2025-12-03T00:03:08.736Z",
+            "updatedAt": "2025-12-04T00:01:44.880Z",
+            "value": 148.7,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-04T00:00:00.000Z",
+            "createdAt": "2025-12-04T00:01:44.880Z",
+            "updatedAt": "2025-12-05T00:02:50.826Z",
+            "value": 167.83,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-05T00:00:00.000Z",
+            "createdAt": "2025-12-05T00:02:50.826Z",
+            "updatedAt": "2025-12-06T00:02:37.569Z",
+            "value": 131.15,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-06T00:00:00.000Z",
+            "createdAt": "2025-12-06T00:02:37.569Z",
+            "updatedAt": "2025-12-07T00:02:56.125Z",
+            "value": 48.98,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-07T00:00:00.000Z",
+            "createdAt": "2025-12-07T00:02:56.125Z",
+            "updatedAt": "2025-12-08T00:02:45.240Z",
+            "value": 67.67,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-08T00:00:00.000Z",
+            "createdAt": "2025-12-08T00:02:45.240Z",
+            "updatedAt": "2025-12-09T00:03:43.386Z",
+            "value": 70.94,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-09T00:00:00.000Z",
+            "createdAt": "2025-12-09T00:03:43.386Z",
+            "updatedAt": "2025-12-10T00:03:06.573Z",
+            "value": 76.6,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-10T00:00:00.000Z",
+            "createdAt": "2025-12-10T00:03:06.573Z",
+            "updatedAt": "2025-12-11T00:01:26.256Z",
+            "value": 77.82,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-11T00:00:00.000Z",
+            "createdAt": "2025-12-11T00:01:26.256Z",
+            "updatedAt": "2025-12-11T14:22:36.898Z",
+            "value": 50.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-12T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-13T00:01:36.737Z",
+            "value": 113.07,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-13T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-14T00:01:51.287Z",
+            "value": 91.22,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-14T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-15T00:01:11.053Z",
+            "value": 37.97,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-15T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-16T00:02:49.424Z",
+            "value": 61.61,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-16T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-17T00:02:45.725Z",
+            "value": 111.52,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-17T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-18T00:01:10.133Z",
+            "value": 110,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-18T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-19T00:01:56.410Z",
+            "value": 102.1,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-19T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-20T00:02:36.875Z",
+            "value": 60.16,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-20T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-21T00:02:43.467Z",
+            "value": 66.06,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-21T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-22T00:01:42.444Z",
+            "value": 68.3,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-22T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-23T00:01:21.651Z",
+            "value": 108.16,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-23T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-24T00:02:41.176Z",
+            "value": 82.21,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-24T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-25T00:02:04.995Z",
+            "value": 78.39,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-25T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-26T00:01:37.941Z",
+            "value": 27.73,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-26T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-27T00:01:16.779Z",
+            "value": 49.19,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-27T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-28T00:01:28.536Z",
+            "value": 1.35,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-28T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-29T00:01:19.526Z",
+            "value": 18.29,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-29T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-30T00:01:14.961Z",
+            "value": 36.25,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-30T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-31T00:01:19.880Z",
+            "value": 57.91,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        },
+        {
+            "zone": "LV",
+            "datetime": "2025-12-31T00:00:00.000Z",
+            "createdAt": "2025-12-11T14:22:36.898Z",
+            "updatedAt": "2025-12-31T15:28:36.757Z",
+            "value": 101.49,
+            "unit": "EUR/MWh",
+            "source": "nordpool.com"
+        }
+    ],
+    "temporalGranularity": "daily",
+    "aggregationPeriod": "daily"
+}

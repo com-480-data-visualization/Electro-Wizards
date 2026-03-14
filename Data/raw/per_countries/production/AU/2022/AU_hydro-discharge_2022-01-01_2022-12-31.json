@@ -1,0 +1,81 @@
+{
+    "zone": "AU",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2022-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -88062
+        },
+        {
+            "datetime": "2022-02-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -76703
+        },
+        {
+            "datetime": "2022-03-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -58852
+        },
+        {
+            "datetime": "2022-04-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -105849
+        },
+        {
+            "datetime": "2022-05-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -164191
+        },
+        {
+            "datetime": "2022-06-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -174522
+        },
+        {
+            "datetime": "2022-07-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -175542
+        },
+        {
+            "datetime": "2022-08-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -128752
+        },
+        {
+            "datetime": "2022-09-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -148700
+        },
+        {
+            "datetime": "2022-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -84208
+        },
+        {
+            "datetime": "2022-11-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -108416
+        },
+        {
+            "datetime": "2022-12-01T00:00:00.000Z",
+            "updatedAt": "2026-02-23T19:21:00.231Z",
+            "estimationMethod": "MEASURED",
+            "value": -143003
+        }
+    ],
+    "source": "hydro discharge",
+    "aggregationPeriod": "monthly"
+}

@@ -1,0 +1,3292 @@
+{
+    "zone": "BG",
+    "data": [
+        {
+            "zone": "BG",
+            "datetime": "2021-01-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 79.58,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 89.84,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 78.01,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 97.53,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 100.12,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 91.83,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 108.36,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 120.88,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 82.27,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 95.94,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 99.55,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 110.23,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 111.98,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 132.08,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 142.2,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 107.78,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 94.79,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 134.2,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 134.73,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 127.19,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 101.58,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 107.87,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 96.22,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 72.88,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 97.57,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 115.44,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 116.22,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 107.54,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 97.83,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 91.46,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-01-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 79.81,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 97.82,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 111.67,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 90.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 93.53,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 99.69,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 83.48,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 37.99,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 72.17,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 71.45,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 92.62,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 92.41,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 126.69,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 96.23,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 91.92,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 98.48,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 122.07,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 114.29,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 104.74,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 110.22,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 78.38,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 68.44,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 98.75,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 93.86,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 87.12,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 92.18,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 94.36,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 81.64,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-02-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 64.28,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 99.6,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 98.93,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 78.89,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 95.47,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 94.09,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 88.11,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 73.53,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 121.06,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 114.29,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 105.39,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 102.77,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 114.58,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 101.81,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 81.74,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 90.8,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 110.77,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 115.41,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 113.51,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 127.91,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 100.62,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 85.1,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 109.55,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 110.01,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 126.3,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 120.86,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 120.35,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 91.27,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 58.03,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 99.3,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 94.92,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-03-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 112.64,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 112.8,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 91.99,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 88.6,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 73.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 69.64,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 104.07,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 125.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 135.83,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 126.21,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 110.77,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 98.09,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 120.93,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 128.65,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 138.91,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 143.26,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 138.42,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 146.18,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 122.03,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 156.22,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 155.57,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 136.8,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 135.21,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 132.4,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 104.64,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 99.07,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 125.48,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 125.95,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 127.04,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 128.44,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-04-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 120.62,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 124.33,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 83.51,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 89.71,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 92.68,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 102.22,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 116.55,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 108.69,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 98.61,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 82.98,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 119.95,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 138.43,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 127.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 123.13,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 137.41,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 120.91,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 105.21,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 171.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 103.96,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 151.44,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 132.5,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 99.46,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 103.83,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 95.74,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 107.63,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 133.28,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 160.43,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 158.37,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 131.64,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 101.84,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 84.03,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-05-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 131.81,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 132.03,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 113.76,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 116.42,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 143.91,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 125.49,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 101.48,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 157.01,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 151.66,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 148.36,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 147.6,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 153.88,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 132.25,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 49.34,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 142.16,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 146.28,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 158.72,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 169.09,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 148.81,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 102.71,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 131.75,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 163.79,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 178.32,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 201.73,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 244.34,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 187.29,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 152.85,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 127.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 189.01,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 212.63,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-06-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 197.75,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 178.95,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 204.65,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 152.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 142.09,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 186.92,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 143.92,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 203.87,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 203.32,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 193.93,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 162.15,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 149.57,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 182.26,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 203.29,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 194.73,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 196.3,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 194.62,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 170.21,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 138.02,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 229.44,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 192.56,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 179.77,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 178.46,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 176.91,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 154.66,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 129.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 184.15,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 204.59,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 232.01,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 238.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 253.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-07-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 204.23,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 172.37,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 229.32,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 292.43,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 329.31,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 252.91,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 229.33,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 187.42,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 190.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 299.4,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 265.55,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 284.64,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 211.28,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 220.89,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 188.7,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 179.99,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 202.67,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 198.72,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 198.09,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 188.25,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 193.72,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 189.24,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 184.88,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 199.5,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 214.97,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 214.43,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 228.95,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 212.96,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 192.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 171.65,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 194.42,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-08-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 243.07,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 217.76,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 216.02,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 224.94,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 196.83,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 175.95,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 198.36,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 225.51,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 220.93,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 236.93,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 272.03,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 230.99,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 217.3,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 251.77,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 262.67,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 307.15,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 331,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 242.13,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 251.61,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 202.54,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 287.23,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 237.11,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 279.19,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 213.19,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 264.83,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 218.04,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 231.45,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 281.27,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 294.79,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 287.93,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-09-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 260.75,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 328.36,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 286.98,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 269.54,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 307.87,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 313.04,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 331.22,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 362.15,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 401.82,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 350.08,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 328.75,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 411.91,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 397.65,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 416.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 404.4,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 414.87,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 395.75,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 353.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 453.23,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 470.37,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 372.33,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 365.54,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 459.66,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 386.56,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 283.84,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 369.87,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 430.43,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 404.6,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 388.66,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 362.42,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 328.14,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-10-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 282.11,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 402.76,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 383.18,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 377.32,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 357.63,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 346.24,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 273.34,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 269.33,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 395.48,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 389.27,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 383.07,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 394.55,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 432.85,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 395.41,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 367.04,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 429.56,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 445.58,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 486.7,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 492.65,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 433.3,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 398.05,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 405.4,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 503.39,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 525.23,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 532.37,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 543.13,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 419.28,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 372.39,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 324.36,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 388.92,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-11-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 377.48,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-01T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 389.63,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-02T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 476.58,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-03T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 432.29,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-04T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 416.78,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-05T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 349.62,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-06T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 421.13,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-07T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 458.72,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-08T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 433.6,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-09T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 449.5,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-10T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 422.87,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-11T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 378.02,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-12T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 311.11,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-13T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 489.29,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-14T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 448.13,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-15T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 458.55,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-16T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 577,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-17T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 577.74,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-18T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 352.02,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-19T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 409.92,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-20T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 600.9,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-21T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 679.3,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-22T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 823.05,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-23T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 662.7,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-24T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 344.8,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-25T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 255.39,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-26T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 328.63,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-27T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 293.35,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-28T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 342.87,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-29T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 303.68,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-30T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 250.53,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        },
+        {
+            "zone": "BG",
+            "datetime": "2021-12-31T00:00:00.000Z",
+            "createdAt": "2025-11-01T19:41:18.935Z",
+            "updatedAt": "2025-11-01T19:41:18.935Z",
+            "value": 185.69,
+            "unit": "BGN/MWh",
+            "source": "entsoe.eu"
+        }
+    ],
+    "temporalGranularity": "daily",
+    "aggregationPeriod": "daily"
+}

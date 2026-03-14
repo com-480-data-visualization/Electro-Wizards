@@ -30,39 +30,36 @@ def make_request(zone, begin_date, end_date, source):
 
 def iterate_across_time_country_source(zones, sources, begin_date, end_date):
     dates = []
-    os.makedirs("Data/raw/per_countries", exist_ok=True)
 
     for i in range(0,end_date-begin_date+1):
         dates.append(begin_date+i)
         
     for zone, source, date in tqdm(product(zones, sources, dates)):
+        os.makedirs("../Data/raw/per_countries/production/"+ str(zone) + "/" + str(date), exist_ok=True)
+
         start_date = str(date)+"-01-01"
         end_date = str(date)+"-12-31"
+        
         file_name = str(zone)+"_" + str(source)+ "_" + str(start_date) + "_" + str(end_date)
         result = make_request(zone, start_date, end_date, source).json()
-        with open(f'Data/raw/per_countries/{file_name}.json', 'w', encoding='utf-8') as f:
+        
+        with open(f"../Data/raw/per_countries/production/" + str(zone) + "/" + str(date) + "/" + str(file_name) + ".json", 'w', encoding='utf-8') as f:
             json.dump(result, f, ensure_ascii=False, indent=4)
 
 
 if __name__ == "__main__":
     zones = get_country_codes_json()
-    with open('country_codes.json', 'w', encoding='utf-8') as f:
+    os.makedirs("../Data/raw", exist_ok=True)
+    with open('../Data/raw/country_codes.json', 'w', encoding='utf-8') as f:
         json.dump(zones, f, ensure_ascii=False, indent=4)
     zones_codes = extract_country_codes(zones)
 
-    sources = [
-    "Nuclear",
-    "Geothermal",
-    "Biomass",
-    "Coal",
-    "Gas",
-    "Oil",
-    "Hydro",
-    "Hydro Storage",
-    "Wind",
-    "Solar",
-    "Battery Storage"]
+    
 
-    iterate_across_time_country_source(zones_codes, sources, 2020, 2021)
+    sources = ["nuclear", "geothermal", "biomass", "coal", "wind", "solar", "hydro", "gas", "oil", "hydro-discharge", "battery-discharge"]
+    
+    begin_date = 2021
+    end_date = 2025
+    iterate_across_time_country_source(zones_codes, sources, begin_date, end_date)
 
     

@@ -1,0 +1,81 @@
+{
+    "zone": "BR-NE",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "data": [
+        {
+            "datetime": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-07T23:04:42.039Z",
+            "estimationMethod": "MEASURED",
+            "value": 3837318
+        },
+        {
+            "datetime": "2021-02-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 2823434
+        },
+        {
+            "datetime": "2021-03-01T00:00:00.000Z",
+            "updatedAt": "2025-11-17T10:38:08.247Z",
+            "estimationMethod": "MEASURED",
+            "value": 3508890
+        },
+        {
+            "datetime": "2021-04-01T00:00:00.000Z",
+            "updatedAt": "2025-11-17T10:38:08.247Z",
+            "estimationMethod": "MEASURED",
+            "value": 3687726
+        },
+        {
+            "datetime": "2021-05-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:37:43.126Z",
+            "estimationMethod": "MEASURED",
+            "value": 4237911
+        },
+        {
+            "datetime": "2021-06-01T00:00:00.000Z",
+            "updatedAt": "2025-11-17T10:38:08.247Z",
+            "estimationMethod": "MEASURED",
+            "value": 3977016
+        },
+        {
+            "datetime": "2021-07-01T00:00:00.000Z",
+            "updatedAt": "2025-11-17T10:38:08.247Z",
+            "estimationMethod": "MEASURED",
+            "value": 4430032
+        },
+        {
+            "datetime": "2021-08-01T00:00:00.000Z",
+            "updatedAt": "2025-11-17T10:38:08.247Z",
+            "estimationMethod": "MEASURED",
+            "value": 4533358
+        },
+        {
+            "datetime": "2021-09-01T00:00:00.000Z",
+            "updatedAt": "2025-11-17T10:38:08.247Z",
+            "estimationMethod": "MEASURED",
+            "value": 4252850
+        },
+        {
+            "datetime": "2021-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-01T07:23:45.030Z",
+            "estimationMethod": "MEASURED",
+            "value": 4473356
+        },
+        {
+            "datetime": "2021-11-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T15:37:43.126Z",
+            "estimationMethod": "MEASURED",
+            "value": 3845533
+        },
+        {
+            "datetime": "2021-12-01T00:00:00.000Z",
+            "updatedAt": "2025-11-17T10:38:08.247Z",
+            "estimationMethod": "MEASURED",
+            "value": 4370642
+        }
+    ],
+    "source": "wind",
+    "aggregationPeriod": "monthly"
+}

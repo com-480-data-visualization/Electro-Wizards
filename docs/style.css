@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+}
+
+/* this .page part designs all the page objects
+Here all sections (hero, second and third) are objects of page but also define other properties. 
+*/
+.page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    background-color: rgb(18, 14, 58);
+    color: white;
+}
+.hero-content h1{
+    font-size: 55px;
+    font-family: Arial, sans-serif;
+    font-weight: 450;
+
+    letter-spacing: 2px;
+    color: #adacac;
+
+    text-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.second {
+    background-color: rgb(18, 14, 58);
+    color: black;
+
+    display: flex;
+    flex-direction: column;  /* stack vertically */
+    align-items: center;     /* center horizontally */
+}
+
+.second-page-title h1 {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    font-weight: 450;
+
+    letter-spacing: 2px;
+    color: #adacac;
+
+    text-shadow: 0 0 20px rgba(255,255,255,0.2);
+} 
+
+.third {
+    background-color: rgb(188, 22, 22);
+    color: black;
+}
+
+/*
+Here we define the style of the two flag buttons
+*/
+.choice {
+
+    align-items: center;
+    gap: 10px;     
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.choice span{
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 450;
+
+    letter-spacing: 2px;
+    color: #adacac;
+
+    text-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.choice img {
+    width: 400px;
+    height: auto;
+    display: block;
+}

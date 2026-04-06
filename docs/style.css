@@ -50,6 +50,20 @@ Here all sections (hero, second and third) are objects of page but also define o
 .third {
     background-color: rgb(18, 14, 58);
     color: black;
+
+    display: flex;
+    flex-direction: column;     /* stack vertically */
+    justify-content: flex-start; /* start from top */
+    align-items: center;        /* center horizontally */
+
+    padding-top: 40px;          /* spacing from top */
+}
+
+.third-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .third h2{
@@ -60,6 +74,38 @@ Here all sections (hero, second and third) are objects of page but also define o
     letter-spacing: 2px;
     color: #adacac;
 
+    text-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+.slider-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider-container label {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    font-weight: 450;
+    letter-spacing: 2px;
+    color: #adacac;
+    text-shadow: 0 0 20px rgba(255,255,255,0.2);
+}
+
+#timeSlider {
+    width: 200;
+    max-width: 80vw;
+    cursor: pointer;
+}
+
+#sliderValue {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    font-weight: 450;
+    letter-spacing: 1px;
+    color: #adacac;
     text-shadow: 0 0 20px rgba(255,255,255,0.2);
 }
 
@@ -178,4 +224,10 @@ When we hover over an image, a little box comes out of it with text, this handle
     border-width: 5px;
     border-style: solid;
     border-color: transparent transparent black transparent;
+}
+
+#map {
+    width: 800px;
+    height: 600px;
+    margin: 20px auto;
 }

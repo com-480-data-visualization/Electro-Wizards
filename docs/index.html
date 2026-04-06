@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
     <title>My Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- The title page -->
     <section class="page hero">
@@ -36,7 +37,21 @@
     <section class="page third">
 
         <h2>Evolution of electricity prices</h2>
-        <img src="Heatwave_across_Europe.png" alt="Description" class="map-image">
+        <div id="map"></div>
+        <div id="tooltip" style="
+            position: absolute;
+            background: rgb(135, 243, 142);
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+            border-radius: 5px;
+            pointer-events: none;
+            opacity: 0;
+        "></div>
+        <div class="slider-container">
+            <label for="timeSlider">Date</label>
+            <input type="range" id="timeSlider" min="0" max="100" value="0">
+            <div id="sliderValue">January 2022</div>
+        </div>
     </section>
 
     <section class="page fourth">
@@ -48,5 +63,62 @@
 
         </div>
     </section>
+ 
+    <script>
+        const width = 800;
+        const height = 600;
+
+        const svg = d3.select("#map")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+        // projection for Europe
+        const projection = d3.geoMercator()
+            .center([15, 55])
+            .scale(500)
+            .translate([width / 2, height / 2]);
+
+        const path = d3.geoPath().projection(projection);
+
+        const tooltip = d3.select("#tooltip");
+
+        // load europe geojson (the map)
+        d3.json("https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson")
+        .then(data => {
+
+            svg.selectAll("path")
+                .data(data.features)
+                .enter()
+                .append("path")
+                .attr("d", path)
+                .attr("fill", "blue")
+                .attr("stroke", "#aaa")
+
+                .on("mouseover", function (event, d) {
+                    d3.select(this).attr("fill", "orange");
+
+                    tooltip
+                    .style("opacity", 1)
+                    .style("left", (event.pageX + 10) + "px")
+                    .style("top", (event.pageY + 10) + "px")
+                    .text(d.properties.ISO3 + ": 10$/kWh"); // This lines here gives the country name once we hover over it. 
+                })
+                .on("mouseout", function () {
+                    d3.select(this).attr("fill", "blue");
+                });
+        });
+
+
+        // this makes the slider affect the text
+        const slider = document.getElementById("timeSlider");
+        const sliderValue = document.getElementById("sliderValue");
+
+        slider.addEventListener("input", function () {
+            sliderValue.textContent = "Jan +: " + slider.value + " months";
+        });
+    </script>
+    
+
 </body>
 </html>

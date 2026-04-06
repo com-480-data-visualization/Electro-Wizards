@@ -1,5 +1,7 @@
 # Project of Data Visualization (COM-480)
 
+# Website: https://com-480-data-visualization.github.io/Electro-Wizards/
+
 | Student's name | SCIPER |
 | -------------- | ------ |
 | | |

@@ -21,7 +21,7 @@ The PDF report for Milestone 1 can be found under `Milestone_1_Report.pdf`
 For this milestone, we have built the skeleton of our website and continued our data exploration. You can find our progress through the following links and files:
 
 * **Website Link:** The live skeleton of our website is available at [https://com-480-data-visualization.github.io/Electro-Wizards/](https://com-480-data-visualization.github.io/Electro-Wizards/)
-* **Milestone 2 Report:** You can find our detailed report for this milestone as `Electricity_Visualisation.pdf`.
+* **Milestone 2 Report:** You can find our detailed report for this milestone as `Milestone_2_Report.pdf`.
 * **Website Sketch/Design:** The preliminary design and sketch of the website are available as `Website Preliminary Design.pdf`.
 
 *(Note: The source code for data preprocessing and exploratory data analysis can be found in the `src/` and `Notebooks/` folders of this repository).*

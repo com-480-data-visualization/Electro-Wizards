@@ -16,8 +16,6 @@ The PDF report for Milestone 1 can be found under `Milestone_1_Report.pdf`
 
 ## Milestone 2 (17th April, 5pm)
 
-**10% of the final grade**
-
 For this milestone, we have built the skeleton of our website and continued our data exploration. You can find our progress through the following links and files:
 
 * **Website Link:** The live skeleton of our website is available at [https://com-480-data-visualization.github.io/Electro-Wizards/](https://com-480-data-visualization.github.io/Electro-Wizards/)

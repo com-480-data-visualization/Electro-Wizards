@@ -1,124 +1,225 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <title>My Website</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Power & Conflict — How geopolitics rewires Europe's electricity</title>
+<meta name="description" content="An interactive data story exploring how the Russia–Ukraine war and Iran tensions reshaped European electricity markets.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://d3js.org/d3.v7.min.js" defer></script>
+<script src="https://unpkg.com/topojson-client@3" defer></script>
+<script src="js/data.js" defer></script>
+<script src="js/intro.js" defer></script>
+<script src="js/choice.js" defer></script>
+<script src="js/map.js" defer></script>
+<script src="js/production.js" defer></script>
+<script src="js/shelf.js" defer></script>
+<script src="js/receipt.js" defer></script>
+<script src="js/main.js" defer></script>
 </head>
-
 <body>
-  <!-- The title page -->
-    <section class="page hero">
-        <div class="hero-content">
-        <h1>A visual story of how conflicts affect energy in Europe</h1>
+
+<nav class="nav">
+  <div class="nav-brand">⚡ Power &amp; Conflict</div>
+  <ul class="nav-links">
+    <li><a href="#hero">Intro</a></li>
+    <li><a href="#choice">Conflict</a></li>
+    <li><a href="#map">Map</a></li>
+    <li><a href="#production">Mix</a></li>
+    <li><a href="#shelf">Shelf</a></li>
+    <li><a href="#receipt">Receipt</a></li>
+  </ul>
+  <button class="nav-reset" id="nav-reset" title="Reset story">Reset</button>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section id="hero" class="page hero" data-conflict-bg>
+  <div class="hero-bg" aria-hidden="true">
+    <canvas id="hero-canvas"></canvas>
+  </div>
+  <div class="hero-content">
+    <p class="kicker">A data story · 2018 → 2025</p>
+    <h1 class="hero-title">When the world cracks,<br><span class="accent">the lights flicker.</span></h1>
+    <p class="hero-sub">European electricity prices used to be boring. Then the wars came. Scroll to follow the shock from a battlefield to your supermarket shelf.</p>
+    <a class="hero-cta" href="#choice">Begin →</a>
+    <div class="scroll-hint">scroll</div>
+  </div>
+</section>
+
+<!-- ========== CONFLICT CHOICE ========== -->
+<section id="choice" class="page choice">
+  <div class="choice-inner">
+    <h2>Pick a shock to follow.</h2>
+    <p class="lede">Two crises, two timelines, two energy stories. Choose the one you want to investigate — the rest of the page will adapt to your pick.</p>
+
+    <div class="choice-grid">
+      <button class="conflict-card" data-conflict="ukraine" aria-pressed="false">
+        <div class="flag flag-ukraine" aria-hidden="true">
+          <div class="flag-stripe blue"></div>
+          <div class="flag-stripe yellow"></div>
         </div>
-    </section>
+        <div class="conflict-meta">
+          <span class="badge">2022</span>
+          <h3>Russia–Ukraine</h3>
+          <p>The shock that reset Europe's gas and power markets.</p>
+        </div>
+      </button>
 
-    <!-- Page with buttons ukraine or Iran -->
-    <section class="page second">
-      <div class="second-page-title">
-        <h1>Choose the conflict you would like to study</h1>
-      </div>
-
-    <div class="choice-container">
-        <button class="choice">
-            <img src="Ukraineflag.png" alt="Choice 1">
-            <span>Ukrainian-Russian conflict 2022</span>
-        </button>
-
-        <button class="choice">
-            <img src="Iranflag.png" alt="Choice 2">
-            <span>Iranian-US conflict 2026</span>
-
-        </button>
+      <button class="conflict-card" data-conflict="iran" aria-pressed="false">
+        <div class="flag flag-iran" aria-hidden="true">
+          <div class="flag-stripe green"></div>
+          <div class="flag-stripe white"><span class="flag-emblem">۞</span></div>
+          <div class="flag-stripe red"></div>
+        </div>
+        <div class="conflict-meta">
+          <span class="badge">2024–26</span>
+          <h3>Iran flare-up</h3>
+          <p>A softer echo? See how a Middle-East shock filters into European prices.</p>
+        </div>
+      </button>
     </div>
-    </section>
 
-    <section class="page third">
+    <p class="choice-hint">Click a flag to begin.</p>
+  </div>
+</section>
 
-        <h2>Evolution of electricity prices</h2>
-        <div id="map"></div>
-        <div id="tooltip" style="
-            position: absolute;
-            background: rgb(135, 243, 142);
-            color: rgb(255, 255, 255);
-            padding: 5px 10px;
-            border-radius: 5px;
-            pointer-events: none;
-            opacity: 0;
-        "></div>
-        <div class="slider-container">
-            <label for="timeSlider">Date</label>
-            <input type="range" id="timeSlider" min="0" max="100" value="0">
-            <div id="sliderValue">January 2022</div>
-        </div>
-    </section>
+<!-- ========== MAP ========== -->
+<section id="map" class="page map-page">
+  <header class="page-header">
+    <p class="kicker" data-conflict-label>Choose a conflict above</p>
+    <h2>Europe priced in shock waves.</h2>
+    <p class="lede">Each country is shaded by its monthly day-ahead electricity price. Drag the slider — or hit play — to watch the wave of red sweep across Europe as the conflict unfolds, then slowly recede.</p>
+  </header>
 
-    <section class="page fourth">
+  <div class="map-wrap">
+    <div id="map-svg-container"></div>
 
-        <h2>Everyday produce basket</h2>
-        <div class="tooltip">
-        <img src="ShopShelve.png" alt="Description" class="shop-image">
-        <span class="tooltip-text">January 2022: Butter = 2$</span>
+    <aside class="map-side">
+      <div class="big-stat">
+        <div class="big-stat-label">Europe avg. price</div>
+        <div class="big-stat-value" id="map-avg-price">—</div>
+        <div class="big-stat-sub" id="map-avg-sub">€/MWh · monthly mean</div>
+      </div>
+      <div class="event-card" id="event-card">
+        <div class="event-date" id="event-date">—</div>
+        <div class="event-title" id="event-title">Pick a conflict and slide the timeline</div>
+        <div class="event-desc" id="event-desc"></div>
+      </div>
+      <div class="map-legend" id="map-legend"></div>
+    </aside>
+  </div>
 
-        </div>
-    </section>
- 
-    <script>
-        const width = 800;
-        const height = 600;
+  <div class="map-controls">
+    <button class="play-btn" id="play-btn" aria-label="Play timeline">▶</button>
+    <input type="range" id="time-slider" min="0" max="100" value="0">
+    <div class="slider-readout" id="slider-readout">—</div>
+  </div>
+</section>
 
-        const svg = d3.select("#map")
-            .append("svg")
-            .attr("width", width)
-            .attr("height", height);
+<!-- ========== PRODUCTION ========== -->
+<section id="production" class="page production-page">
+  <header class="page-header">
+    <p class="kicker">How countries reacted</p>
+    <h2>The energy mix shifts under pressure.</h2>
+    <p class="lede">When gas got expensive, every country played a different hand. Hover the chart to see exactly what changed — and pick a country to focus on.</p>
+  </header>
 
-        // projection for Europe
-        const projection = d3.geoMercator()
-            .center([15, 55])
-            .scale(500)
-            .translate([width / 2, height / 2]);
+  <div class="production-controls">
+    <label for="prod-country">Country</label>
+    <select id="prod-country"></select>
+    <div class="prod-mode">
+      <button data-mode="absolute" class="active">Absolute (MWh)</button>
+      <button data-mode="share">Share of mix</button>
+    </div>
+  </div>
 
-        const path = d3.geoPath().projection(projection);
+  <div id="production-chart"></div>
 
-        const tooltip = d3.select("#tooltip");
+  <div class="prod-takeaway" id="prod-takeaway">
+    <strong>Read this:</strong> <span id="prod-takeaway-text">—</span>
+  </div>
+</section>
 
-        // load europe geojson (the map)
-        d3.json("https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson")
-        .then(data => {
+<!-- ========== SHELF ========== -->
+<section id="shelf" class="page shelf-page">
+  <header class="page-header">
+    <p class="kicker">From €/MWh to €/kg</p>
+    <h2>The shock landed in your pantry.</h2>
+    <p class="lede">Hover any item to see what its price did before, during and after the shock. Click items to drop them in your basket — we'll print a receipt at the end.</p>
+  </header>
 
-            svg.selectAll("path")
-                .data(data.features)
-                .enter()
-                .append("path")
-                .attr("d", path)
-                .attr("fill", "blue")
-                .attr("stroke", "#aaa")
+  <div class="shelf-controls">
+    <label for="shelf-country">Compare country</label>
+    <select id="shelf-country"></select>
+  </div>
 
-                .on("mouseover", function (event, d) {
-                    d3.select(this).attr("fill", "orange");
+  <div class="shelf-stage" id="shelf-stage"></div>
 
-                    tooltip
-                    .style("opacity", 1)
-                    .style("left", (event.pageX + 10) + "px")
-                    .style("top", (event.pageY + 10) + "px")
-                    .text(d.properties.ISO3 + ": 10$/kWh"); // This lines here gives the country name once we hover over it. 
-                })
-                .on("mouseout", function () {
-                    d3.select(this).attr("fill", "blue");
-                });
-        });
+  <div class="shelf-tooltip" id="shelf-tooltip" aria-hidden="true">
+    <div class="tt-head">
+      <span class="tt-emoji"></span>
+      <span class="tt-name"></span>
+    </div>
+    <div class="tt-row"><span>Before shock</span><span class="tt-before"></span></div>
+    <div class="tt-row"><span>Peak</span><span class="tt-peak"></span></div>
+    <div class="tt-row"><span>Latest</span><span class="tt-latest"></span></div>
+    <div class="tt-spark"></div>
+    <div class="tt-hint">click to add to basket</div>
+  </div>
+</section>
 
+<!-- ========== RECEIPT ========== -->
+<section id="receipt" class="page receipt-page">
+  <header class="page-header">
+    <p class="kicker">The bill for the war</p>
+    <h2>Your conflict receipt.</h2>
+    <p class="lede">Build a basket on the shelf above, then come back here. We'll show what you would have paid before the shock, what you'd pay at peak, and what the war added to your trolley.</p>
+  </header>
 
-        // this makes the slider affect the text
-        const slider = document.getElementById("timeSlider");
-        const sliderValue = document.getElementById("sliderValue");
+  <div class="receipt-wrap">
+    <div class="receipt-paper" id="receipt-paper">
+      <div class="receipt-header">
+        <div class="receipt-title">PowerMart</div>
+        <div class="receipt-sub">Daily essentials · <span id="receipt-country">EU</span></div>
+        <div class="receipt-meta" id="receipt-meta">No items yet — add some from the shelf.</div>
+      </div>
+      <div class="receipt-items" id="receipt-items"></div>
+      <div class="receipt-totals" id="receipt-totals"></div>
+      <div class="receipt-footer">
+        <p>Estimates derived from Eurostat HICP indices, ENTSO-E day-ahead prices and ElectricityMaps production data.</p>
+      </div>
+    </div>
 
-        slider.addEventListener("input", function () {
-            sliderValue.textContent = "Jan +: " + slider.value + " months";
-        });
-    </script>
-    
+    <div class="receipt-side">
+      <button class="btn-clear" id="btn-clear">Clear basket</button>
+      <a class="btn-restart" href="#hero">Restart story ↑</a>
+      <div class="credits">
+        <h4>Sources &amp; tools</h4>
+        <ul>
+          <li>Day-ahead prices · <a href="https://transparency.entsoe.eu/" target="_blank" rel="noopener">ENTSO-E</a></li>
+          <li>Production mix · <a href="https://api.electricitymaps.com/" target="_blank" rel="noopener">ElectricityMaps</a></li>
+          <li>Consumer prices · Eurostat HICP</li>
+          <li>Built with D3.js, vanilla JS &amp; CSS</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p>Power &amp; Conflict · Data Visualization 2026 · COM-480</p>
+</footer>
+
+<!-- Floating basket pill -->
+<div class="basket-pill" id="basket-pill" aria-live="polite">
+  <span class="basket-icon">🧺</span>
+  <span class="basket-count" id="basket-count">0</span>
+  <a href="#receipt" class="basket-link">view receipt</a>
+</div>
 
 </body>
 </html>

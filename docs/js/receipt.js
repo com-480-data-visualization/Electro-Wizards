@@ -8,12 +8,17 @@
     PC.on("basket", () => render());
     PC.on("shelfCountry", () => render());
     PC.on("conflict", () => render());
+    PC.on("monthIndex", () => render());
 
     document.getElementById("btn-clear").addEventListener("click", () => {
       PC.set({ basket: [] });
     });
 
     render();
+  }
+
+  function currentMonth() {
+    return PC.data.prices.dates[PC.state.monthIndex] || PC.data.prices.dates[0];
   }
 
   function priceAtNearest(item, country, isoMonth) {
@@ -47,12 +52,10 @@
     return max;
   }
   function latestPrice(item, country) {
-    const it = PC.data.items.data[item];
-    if (!it) return null;
-    const arr = it.countries[country];
-    if (!arr) return null;
-    for (let i = arr.length - 1; i >= 0; i--) if (arr[i] != null) return arr[i];
-    return null;
+    // "Latest" is now whatever date the global slider is on (so the user can
+    // play the timeline and watch the receipt update). Fall back to nearest
+    // observation if there's nothing at that exact month.
+    return priceAtNearest(item, country, currentMonth());
   }
 
   function render() {
@@ -79,7 +82,7 @@
     }
 
     metaHost.textContent =
-      `Before: ${prettyMonth(cw.before)} · Peak: ${prettyMonth(cw.peak)} · Latest: ${prettyMonth(latestMonth())}`;
+      `Before: ${prettyMonth(cw.before)} · Peak: ${prettyMonth(cw.peak)} · At slider: ${prettyMonth(currentMonth())}`;
 
     let header = `
       <div class="receipt-item-row" style="font-weight:700;">
@@ -121,13 +124,13 @@
     totalsHost.innerHTML = `
       <div class="totals-row"><span>Subtotal · before</span><span>${fmt(totalBefore)}</span></div>
       <div class="totals-row"><span>Subtotal · peak of shock</span><span>${fmt(totalPeak)}</span></div>
-      <div class="totals-row"><span>Subtotal · latest</span><span>${fmt(totalNow)}</span></div>
+      <div class="totals-row"><span>Subtotal · at slider date</span><span>${fmt(totalNow)}</span></div>
       ${deltaPeak != null ? `<div class="totals-row delta">
         <span>What the shock added (peak − before)</span>
         <span class="v">${deltaPeak >= 0 ? "+" : ""}${fmt(deltaPeak)}</span>
       </div>` : ""}
       ${deltaNow != null ? `<div class="totals-row delta">
-        <span>What's left in the trolley today</span>
+        <span>Cost vs. before (at slider date)</span>
         <span class="v">${deltaNow >= 0 ? "+" : ""}${fmt(deltaNow)}</span>
       </div>` : ""}
     `;
@@ -148,10 +151,6 @@
     const [y, m] = iso.split("-");
     const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
     return `${months[+m - 1]} ${y}`;
-  }
-  function latestMonth() {
-    const dates = PC.data.items.data["Bread"]?.dates || [];
-    return dates[dates.length - 1] || "—";
   }
 
   document.addEventListener("DOMContentLoaded", () => {

@@ -22,13 +22,32 @@
       .map((c) => `<option value="${c}">${PC.countryNames[c] || c}</option>`)
       .join("");
     sel.value = PC.state.shelfCountry;
-    sel.addEventListener("change", (e) => PC.set({ shelfCountry: e.target.value }));
+    sel.addEventListener("change", (e) => {
+      PC.set({ shelfCountry: e.target.value, selectedCountry: e.target.value });
+    });
+
+    // When the map selection changes, snap the dropdown to it.
+    PC.on("selectedCountry", (iso2) => {
+      if (!iso2) return;
+      // Some items use sub-codes like EL for Greece -- only snap if the
+      // country actually has shelf data.
+      const opt = Array.from(sel.options).find((o) => o.value === iso2);
+      if (opt) {
+        sel.value = iso2;
+        PC.set({ shelfCountry: iso2 });
+      }
+    });
 
     PC.on("shelfCountry", () => render());
     PC.on("conflict", () => render());
     PC.on("basket", () => render());
+    PC.on("monthIndex", () => render());
 
     render();
+  }
+
+  function currentMonth() {
+    return PC.data.prices.dates[PC.state.monthIndex] || PC.data.prices.dates[0];
   }
 
   function priceAt(item, country, isoMonth) {
@@ -77,12 +96,15 @@
         peak = arr[i]; peakDate = dates[i];
       }
     }
-    const latest = arr[arr.length - 1];
+    // "Latest" is now driven by the slider date (falls back to nearest if missing)
+    const latest = nearestPrice(item, country, currentMonth());
 
     return { before, peak, peakDate, latest, dates, arr };
   }
 
   function render() {
+    const dateEl = document.getElementById("shelf-date-display");
+    if (dateEl) dateEl.textContent = humanDate(currentMonth());
     stage.innerHTML = "";
     SHELVES.forEach((row) => {
       const rowEl = document.createElement("div");
@@ -111,6 +133,13 @@
       });
       stage.appendChild(rowEl);
     });
+  }
+
+  function humanDate(iso) {
+    if (!iso) return "—";
+    const [y, m] = iso.split("-");
+    const months = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+    return `${months[+m - 1]} ${y}`;
   }
 
   function shortName(item) {

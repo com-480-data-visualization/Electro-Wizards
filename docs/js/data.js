@@ -53,6 +53,8 @@
     shelfCountry: "FR",
     prodCountry: "FR",
     prodMode: "absolute",  // or 'share'
+    selectedCountry: null, // ISO2 of the country currently drilled into on the map
+    stage: "hero",         // lock state machine (see lock.js)
   };
   PC.set = function (patch) {
     const old = { ...PC.state };
@@ -104,6 +106,24 @@
       if (ev.date <= date) active = ev; else break;
     }
     return active;
+  };
+
+  // Mean price over the 12 months ending one month BEFORE the shock month.
+  // This smooths out seasonality and gives a stable "pre-shock" reference.
+  PC.preShockBaseline = function (iso2) {
+    const arr = PC.data.prices.values[iso2];
+    if (!arr) return null;
+    const dates = PC.data.prices.dates;
+    const cw = PC.conflictWindow();
+    const shockIdx = dates.indexOf(cw.shock);
+    if (shockIdx < 0) return null;
+    const end = shockIdx; // exclusive
+    const start = Math.max(0, end - 12);
+    let sum = 0, n = 0;
+    for (let i = start; i < end; i++) {
+      if (arr[i] != null) { sum += arr[i]; n++; }
+    }
+    return n ? sum / n : null;
   };
 
   // Item -> emoji icon

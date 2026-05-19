@@ -33,7 +33,11 @@
       .join("");
 
     sel.value = PC.state.prodCountry;
-    sel.addEventListener("change", (e) => PC.set({ prodCountry: e.target.value }));
+    sel.addEventListener("change", (e) => {
+      // Dropdown is a manual override — also bumps selectedCountry so the
+      // map highlight + shelf + receipt stay in sync with what's displayed.
+      PC.set({ prodCountry: e.target.value, selectedCountry: e.target.value });
+    });
 
     // Mode buttons
     const modeBtns = document.querySelectorAll(".prod-mode button");
@@ -44,14 +48,36 @@
       });
     });
 
+    // When the map selection changes, snap the dropdown to it.
+    PC.on("selectedCountry", (iso2) => {
+      if (!iso2) return;
+      if (PC.data.production.countries[iso2]) {
+        sel.value = iso2;
+        PC.set({ prodCountry: iso2 });
+      }
+    });
+
     PC.on("prodCountry", () => render());
     PC.on("prodMode", () => render());
     PC.on("conflict", () => render());
+    PC.on("monthIndex", () => render());
+    PC.on("stage", () => render());
+
+    // Re-render when the section first becomes visible (so width is non-zero
+    // after the stage-gate hides it initially).
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) render(); });
+    }, { threshold: 0.05 });
+    io.observe(document.getElementById("production"));
+
+    window.addEventListener("resize", render);
 
     render();
   }
 
   function render() {
+    // Bail out if the container isn't visible yet (avoids -40 width SVGs).
+    if (!container || container.clientWidth < 80) return;
     const country = PC.state.prodCountry;
     const data = PC.data.production;
     const dates = data.dates;
@@ -145,7 +171,7 @@
       .transition().duration(400)
       .attr("d", area);
 
-    // Conflict marker
+    // Conflict shock marker
     const cw = PC.conflictWindow();
     const shockX = x(cw.shock);
     let marker = g.select(".shock-marker");
@@ -161,6 +187,31 @@
     } else {
       marker.style("display", "none");
     }
+
+    // Slider position marker — follows the floating timebar
+    const sliderDate = PC.data.prices.dates[PC.state.monthIndex];
+    const sliderX = sliderDate ? x(sliderDate) : null;
+    let sliderMarker = g.select(".slider-marker");
+    if (sliderMarker.empty()) {
+      sliderMarker = g.append("g").attr("class", "slider-marker");
+      sliderMarker.append("line")
+        .attr("stroke", "var(--conflict-2)")
+        .attr("stroke-width", 2);
+      sliderMarker.append("circle")
+        .attr("r", 4)
+        .attr("fill", "var(--conflict-2)");
+    }
+    if (sliderX != null) {
+      sliderMarker.style("display", null);
+      sliderMarker.select("line").attr("x1", sliderX).attr("x2", sliderX).attr("y1", 0).attr("y2", innerH);
+      sliderMarker.select("circle").attr("cx", sliderX).attr("cy", innerH);
+    } else {
+      sliderMarker.style("display", "none");
+    }
+
+    // (Annotation pills removed by user request — kept the helper around in
+    // case we want to bring them back later.)
+    g.selectAll(".annotation").remove();
 
     // Legend
     let legend = container.querySelector(".prod-legend");
@@ -184,6 +235,117 @@
 
     // Takeaway
     document.getElementById("prod-takeaway-text").textContent = takeawayFor(country, data, cw);
+  }
+
+  /**
+   * Detect notable mix changes for a country and draw annotation pills
+   * pointing at the inflection points on the stacked area.
+   *
+   * Approach: for each energy source, compute the change in share between
+   * the average of the 12 months BEFORE the shock date and a 6-month window
+   * starting at the shock. Pick the top 2 absolute movers (≥ 5pp) and label
+   * them as floating pills with a connector line to the stacked area at
+   * the post-shock window's mid-point.
+   */
+  function drawAnnotations(g, x, y, series, dates, sources, country, innerW, innerH) {
+    const cw = PC.conflictWindow();
+    const shockIdx = dates.indexOf(cw.shock);
+    if (shockIdx < 0) {
+      g.selectAll(".annotation").remove();
+      return;
+    }
+
+    const data = PC.data.production.countries[country] || {};
+    const totalAt = (i) => sources.reduce((s, src) => s + (data[src]?.[i] ?? 0), 0);
+    const avgShare = (src, from, to) => {
+      let sum = 0, n = 0;
+      for (let i = from; i < to; i++) {
+        const t = totalAt(i);
+        if (t > 0 && data[src]?.[i] != null) { sum += (data[src][i] / t); n++; }
+      }
+      return n ? sum / n : null;
+    };
+
+    const beforeFrom = Math.max(0, shockIdx - 12);
+    const afterTo = Math.min(dates.length, shockIdx + 6);
+
+    const changes = sources.map((src) => {
+      const a = avgShare(src, beforeFrom, shockIdx);
+      const b = avgShare(src, shockIdx, afterTo);
+      if (a == null || b == null) return null;
+      return { src, before: a, after: b, delta: b - a };
+    }).filter(Boolean).filter((d) => Math.abs(d.delta) >= 0.05);
+
+    changes.sort((a, b) => Math.abs(b.delta) - Math.abs(a.delta));
+    const picks = changes.slice(0, 2);
+
+    // Anchor x = mid-point of the "after" window
+    const anchorIdx = Math.floor((shockIdx + afterTo) / 2);
+    const anchorDate = dates[anchorIdx];
+    const anchorX = x(anchorDate);
+
+    // For each picked source, find its y-band centre at the anchor month
+    // so the connector points at the right ribbon.
+    const layerForSrc = (s) => series.find((ss) => ss.key === s);
+
+    const annotation = g.selectAll(".annotation").data(picks, (d) => d.src);
+    annotation.exit().remove();
+    const enter = annotation.enter().append("g").attr("class", "annotation");
+
+    enter.append("line").attr("class", "anno-line")
+      .attr("stroke", "rgba(255,255,255,0.6)")
+      .attr("stroke-width", 1)
+      .attr("stroke-dasharray", "2 2");
+    enter.append("circle").attr("class", "anno-dot")
+      .attr("r", 3).attr("fill", "var(--conflict-2)");
+    enter.append("g").attr("class", "anno-pill-g");
+
+    const all = enter.merge(annotation);
+    all.each(function (d, i) {
+      const layer = layerForSrc(d.src);
+      if (!layer) return;
+      const stack = layer[anchorIdx];
+      if (!stack) return;
+      const bandY = (y(stack[0]) + y(stack[1])) / 2;
+
+      // Pill above the chart, alternating sides if both are close
+      const isLeft = i === 0;
+      const pillX = isLeft ? Math.max(80, anchorX - 100) : Math.min(innerW - 80, anchorX + 100);
+      const pillY = 14 + i * 20;
+
+      d3.select(this).select(".anno-line")
+        .attr("x1", anchorX).attr("y1", bandY)
+        .attr("x2", pillX).attr("y2", pillY + 12);
+      d3.select(this).select(".anno-dot")
+        .attr("cx", anchorX).attr("cy", bandY);
+
+      const sign = d.delta >= 0 ? "▲" : "▼";
+      const pp = Math.abs(d.delta * 100).toFixed(0);
+      const text = `${sign} ${d.src} ${d.delta >= 0 ? "+" : "−"}${pp} pp`;
+
+      // Recreate the pill content each render (sizes/positions change with width)
+      const pillG = d3.select(this).select(".anno-pill-g")
+        .attr("transform", `translate(${pillX},${pillY})`);
+      pillG.selectAll("*").remove();
+      const textEl = pillG.append("text")
+        .attr("x", 0).attr("y", 0)
+        .attr("text-anchor", "middle")
+        .attr("dominant-baseline", "middle")
+        .attr("fill", "#fff")
+        .attr("font-size", "11")
+        .attr("font-weight", "600")
+        .text(text);
+      const bbox = textEl.node().getBBox();
+      const padX = 10, padY = 5;
+      pillG.insert("rect", "text")
+        .attr("x", bbox.x - padX)
+        .attr("y", bbox.y - padY)
+        .attr("width", bbox.width + 2 * padX)
+        .attr("height", bbox.height + 2 * padY)
+        .attr("rx", 10)
+        .attr("fill", d.delta >= 0 ? "rgba(255, 87, 87, 0.85)" : "rgba(46, 196, 182, 0.85)")
+        .attr("stroke", "rgba(255,255,255,0.25)");
+    });
   }
 
   function takeawayFor(country, data, cw) {

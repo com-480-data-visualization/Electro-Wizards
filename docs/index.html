@@ -13,25 +13,31 @@
 <script src="https://d3js.org/d3.v7.min.js" defer></script>
 <script src="https://unpkg.com/topojson-client@3" defer></script>
 <script src="js/data.js" defer></script>
+<script src="js/lock.js" defer></script>
 <script src="js/intro.js" defer></script>
 <script src="js/choice.js" defer></script>
 <script src="js/map.js" defer></script>
+<script src="js/timebar.js" defer></script>
+<script src="js/ticker.js" defer></script><script src="js/drilldown.js" defer></script>
+<script src="js/barrace.js" defer></script>
 <script src="js/production.js" defer></script>
 <script src="js/shelf.js" defer></script>
 <script src="js/receipt.js" defer></script>
+<script src="js/compare.js" defer></script>
 <script src="js/main.js" defer></script>
 </head>
-<body>
+<body class="stage-hero">
 
 <nav class="nav">
   <div class="nav-brand">⚡ Power &amp; Conflict</div>
   <ul class="nav-links">
-    <li><a href="#hero">Intro</a></li>
-    <li><a href="#choice">Conflict</a></li>
-    <li><a href="#map">Map</a></li>
-    <li><a href="#production">Mix</a></li>
-    <li><a href="#shelf">Shelf</a></li>
-    <li><a href="#receipt">Receipt</a></li>
+    <li><a href="#hero" data-nav="hero">Intro</a></li>
+    <li><a href="#choice" data-nav="choice">Conflict</a></li>
+    <li><a href="#map" data-nav="map" data-locked>Map</a></li>
+    <li><a href="#production" data-nav="production" data-locked>Mix</a></li>
+    <li><a href="#shelf" data-nav="shelf" data-locked>Shelf</a></li>
+    <li><a href="#receipt" data-nav="receipt" data-locked>Receipt</a></li>
+    <li><a href="#compare" data-nav="compare" data-locked>Compare</a></li>
   </ul>
   <button class="nav-reset" id="nav-reset" title="Reset story">Reset</button>
 </nav>
@@ -42,7 +48,7 @@
     <canvas id="hero-canvas"></canvas>
   </div>
   <div class="hero-content">
-    <p class="kicker">A data story · 2018 → 2025</p>
+    <p class="kicker">A data story · 2018 → 2026</p>
     <h1 class="hero-title">When the world cracks,<br><span class="accent">the lights flicker.</span></h1>
     <p class="hero-sub">European electricity prices used to be boring. Then the wars came. Scroll to follow the shock from a battlefield to your supermarket shelf.</p>
     <a class="hero-cta" href="#choice">Begin →</a>
@@ -83,7 +89,7 @@
       </button>
     </div>
 
-    <p class="choice-hint">Click a flag to begin.</p>
+    <p class="choice-hint" id="choice-hint">Click a flag to unlock the story.</p>
   </div>
 </section>
 
@@ -92,31 +98,54 @@
   <header class="page-header">
     <p class="kicker" data-conflict-label>Choose a conflict above</p>
     <h2>Europe priced in shock waves.</h2>
-    <p class="lede">Each country is shaded by its monthly day-ahead electricity price. Drag the slider — or hit play — to watch the wave of red sweep across Europe as the conflict unfolds, then slowly recede.</p>
+    <p class="lede">Each country is shaded by its monthly day-ahead electricity price. Drag the timeline to scrub through history — then <strong>click a country</strong> to open its quick view on the right. From there, use the CTA to see its energy mix.</p>
   </header>
 
   <div class="map-wrap">
     <div id="map-svg-container"></div>
 
-    <aside class="map-side">
-      <div class="big-stat">
-        <div class="big-stat-label">Europe avg. price</div>
-        <div class="big-stat-value" id="map-avg-price">—</div>
-        <div class="big-stat-sub" id="map-avg-sub">€/MWh · monthly mean</div>
+    <aside class="map-side" id="map-side">
+      <!-- Default sidebar -->
+      <div class="side-default" id="side-default">
+        <div class="big-stat">
+          <div class="big-stat-label">Europe avg. price</div>
+          <div class="big-stat-value" id="map-avg-price">—</div>
+          <div class="big-stat-sub" id="map-avg-sub">€/MWh · monthly mean</div>
+        </div>
+        <div class="event-card" id="event-card">
+          <div class="event-date" id="event-date">—</div>
+          <div class="event-title" id="event-title">Pick a conflict and slide the timeline</div>
+          <div class="event-desc" id="event-desc"></div>
+        </div>
+        <div class="map-legend" id="map-legend"></div>
       </div>
-      <div class="event-card" id="event-card">
-        <div class="event-date" id="event-date">—</div>
-        <div class="event-title" id="event-title">Pick a conflict and slide the timeline</div>
-        <div class="event-desc" id="event-desc"></div>
+
+      <!-- Country drill-down (populated by drilldown.js) -->
+      <div class="side-drill" id="side-drill" hidden>
+        <button class="drill-close" id="drill-close" title="Close country detail">×</button>
+        <div class="drill-head">
+          <div class="drill-flag" id="drill-flag"></div>
+          <div>
+            <div class="drill-name" id="drill-name">—</div>
+            <div class="drill-sub" id="drill-sub">—</div>
+          </div>
+        </div>
+        <div class="drill-stats" id="drill-stats"></div>
+        <div class="drill-chart" id="drill-chart"></div>
+        <div class="drill-sources" id="drill-sources"></div>
+        <a class="drill-cta" id="drill-cta" href="#production">See its energy mix ↓</a>
       </div>
-      <div class="map-legend" id="map-legend"></div>
     </aside>
   </div>
 
-  <div class="map-controls">
-    <button class="play-btn" id="play-btn" aria-label="Play timeline">▶</button>
-    <input type="range" id="time-slider" min="0" max="100" value="0">
-    <div class="slider-readout" id="slider-readout">—</div>
+  <p class="map-hint" id="map-hint">Click any country on the map to drill in and unlock the next chapters.</p>
+
+  <div class="bar-race-wrap">
+    <header class="bar-race-header">
+      <h3>Top 10 most expensive grids</h3>
+      <p class="bar-race-sub">€/MWh · ranks live as the timeline moves</p>
+    </header>
+    <div id="bar-race" class="bar-race"></div>
   </div>
 </section>
 
@@ -135,9 +164,20 @@
       <button data-mode="absolute" class="active">Absolute (MWh)</button>
       <button data-mode="share">Share of mix</button>
     </div>
+    <span class="shelf-hint-tip">Synced with map · change here or pick another country on the map</span>
   </div>
 
-  <div id="production-chart"></div>
+  <div class="production-layout">
+    <div id="production-chart"></div>
+    <aside class="seasonal-note" aria-label="Reading help">
+      <div class="seasonal-note-icon" aria-hidden="true">❄️ ☀️</div>
+      <h4>Why does it wave?</h4>
+      <p>The hills and valleys are <strong>seasonal</strong>, not crises.</p>
+      <p>Electricity demand <strong>peaks in winter</strong> (heating, short days) and <strong>dips in spring/autumn</strong> (mild weather), so most countries' production rises and falls every year.</p>
+      <p>Solar follows the opposite cycle — high in summer, near-zero in December — which is why its band swells in the middle of each year.</p>
+      <p class="seasonal-note-tip">To spot a real shock, look for changes in <em>shape</em> (e.g. a band that grows or shrinks vs. its usual rhythm), not the seasonal swings themselves.</p>
+    </aside>
+  </div>
 
   <div class="prod-takeaway" id="prod-takeaway">
     <strong>Read this:</strong> <span id="prod-takeaway-text">—</span>
@@ -149,12 +189,14 @@
   <header class="page-header">
     <p class="kicker">From €/MWh to €/kg</p>
     <h2>The shock landed in your pantry.</h2>
-    <p class="lede">Hover any item to see what its price did before, during and after the shock. Click items to drop them in your basket — we'll print a receipt at the end.</p>
+    <p class="lede">The shelf reflects prices at the date set on the timeline at the bottom of the screen. Hover any item for a sparkline, click to drop it in your basket.</p>
   </header>
 
   <div class="shelf-controls">
-    <label for="shelf-country">Compare country</label>
+    <label for="shelf-country">Country</label>
     <select id="shelf-country"></select>
+    <span class="shelf-date-pill">Showing: <strong id="shelf-date-display">—</strong></span>
+    <span class="shelf-hint-tip">Synced with map selection · pick another country to compare</span>
   </div>
 
   <div class="shelf-stage" id="shelf-stage"></div>
@@ -166,7 +208,7 @@
     </div>
     <div class="tt-row"><span>Before shock</span><span class="tt-before"></span></div>
     <div class="tt-row"><span>Peak</span><span class="tt-peak"></span></div>
-    <div class="tt-row"><span>Latest</span><span class="tt-latest"></span></div>
+    <div class="tt-row"><span>At slider date</span><span class="tt-latest"></span></div>
     <div class="tt-spark"></div>
     <div class="tt-hint">click to add to basket</div>
   </div>
@@ -177,7 +219,7 @@
   <header class="page-header">
     <p class="kicker">The bill for the war</p>
     <h2>Your conflict receipt.</h2>
-    <p class="lede">Build a basket on the shelf above, then come back here. We'll show what you would have paid before the shock, what you'd pay at peak, and what the war added to your trolley.</p>
+    <p class="lede">Build a basket on the shelf above. We'll show what you would have paid before the shock, what you'd pay at peak, and what the war added to your trolley at the timeline date.</p>
   </header>
 
   <div class="receipt-wrap">
@@ -210,15 +252,75 @@
   </div>
 </section>
 
+<!-- ========== CONFLICT COMPARISON ========== -->
+<section id="compare" class="page compare-page">
+  <header class="page-header">
+    <p class="kicker">Two crises, side by side</p>
+    <h2>How does this shock compare?</h2>
+    <p class="lede">Two energy crises, two timelines. Aligned at month 0 = shock month for each. Notice how 2022's invasion wave dwarfed 2024's Middle East jitters.</p>
+  </header>
+  <div id="compare-chart" class="compare-chart"></div>
+  <div class="compare-legend" id="compare-legend"></div>
+</section>
+
 <footer class="site-footer">
   <p>Power &amp; Conflict · Data Visualization 2026 · COM-480</p>
 </footer>
+
+<!-- ============== PERSISTENT TIME BAR (floating bottom) ============== -->
+<div class="timebar" id="timebar" hidden>
+  <div class="timebar-ticker" id="ticker">
+    <button class="ticker-pill" id="ticker-pill" type="button" aria-expanded="false">
+      <span class="ticker-pill-date" id="ticker-date">—</span>
+      <span class="ticker-pill-text" id="ticker-text">—</span>
+      <span class="ticker-pill-icon">📰</span>
+    </button>
+  </div>
+  <div class="timebar-controls">
+    <button class="play-btn" id="play-btn" aria-label="Play timeline">▶</button>
+    <input type="range" id="time-slider" min="0" max="100" value="0">
+    <div class="slider-readout" id="slider-readout">—</div>
+  </div>
+  <div class="timebar-legend">
+    <span>€20</span>
+    <span class="timebar-bar"></span>
+    <span>€350+</span>
+  </div>
+</div>
 
 <!-- Floating basket pill -->
 <div class="basket-pill" id="basket-pill" aria-live="polite">
   <span class="basket-icon">🧺</span>
   <span class="basket-count" id="basket-count">0</span>
   <a href="#receipt" class="basket-link">view receipt</a>
+</div>
+
+<!-- Scroll-lock overlay -->
+<div class="lock-toast" id="lock-toast" hidden>
+  <span id="lock-toast-text">Pick a conflict above to keep going ↑</span>
+</div>
+
+<!-- Newspaper clipping overlay (auto-appears when crossing an event,
+     also can be opened from the floating timebar pill) -->
+<div class="newspaper-overlay" id="newspaper" hidden>
+  <div class="newspaper-backdrop" data-newspaper-close></div>
+  <article class="newspaper-clip">
+    <button class="newspaper-close" id="newspaper-close" data-newspaper-close aria-label="Close">×</button>
+    <header class="newspaper-masthead">
+      <span class="newspaper-source" id="np-source">—</span>
+      <span class="newspaper-rule">|</span>
+      <span class="newspaper-date" id="np-date">—</span>
+    </header>
+    <h1 class="newspaper-headline" id="np-headline">—</h1>
+    <p class="newspaper-desc" id="np-desc">—</p>
+    <div class="newspaper-impact" id="np-impact">
+      <span class="newspaper-impact-label">Impact on the energy mix</span>
+      <span class="newspaper-impact-text">—</span>
+    </div>
+    <a class="newspaper-link" id="np-link" href="#" target="_blank" rel="noopener">
+      Read the full story →
+    </a>
+  </article>
 </div>
 
 </body>

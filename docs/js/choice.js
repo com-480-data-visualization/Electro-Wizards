@@ -24,23 +24,17 @@
         const c = card.dataset.conflict;
         PC.set({ conflict: c });
         applyConflict(c);
-        // smooth scroll to the next page
-        document.getElementById("map").scrollIntoView({ behavior: "smooth" });
+        // Advance the lock state machine and scroll to the map.
+        PC.setStage("choice");
+        // Give the lock state machine a tick to flip visibility on #map.
+        setTimeout(() => {
+          document.getElementById("map").scrollIntoView({ behavior: "smooth" });
+        }, 50);
       });
     });
 
     // Re-apply if the state changes elsewhere (e.g. nav reset)
     PC.on("conflict", (c) => applyConflict(c));
-
-    // Reset button
-    const reset = document.getElementById("nav-reset");
-    if (reset) {
-      reset.addEventListener("click", () => {
-        PC.set({ conflict: null, basket: [], monthIndex: 0 });
-        applyConflict(null);
-        document.getElementById("hero").scrollIntoView({ behavior: "smooth" });
-      });
-    }
   }
 
   document.addEventListener("DOMContentLoaded", () => {

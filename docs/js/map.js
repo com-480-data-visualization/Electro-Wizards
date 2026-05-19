@@ -1,23 +1,21 @@
-/* Choropleth of monthly day-ahead electricity prices in Europe. */
+/* Choropleth of monthly day-ahead electricity prices in Europe.
+ * The time slider lives in the floating timebar (timebar.js) and pushes
+ * monthIndex into the shared store, so we just react to that. Clicking a
+ * country triggers the drilldown panel + advances the lock state machine.
+ */
 (function () {
   let svg, g, pathGen, projection, countriesNode, tooltipEl, colorScale;
-  let playing = false, playTimer = null;
 
   function init() {
     const prices = PC.data.prices;
     const world = PC.data.world;
 
-    // Build the color scale (€/MWh). Use a perceptual diverging-ish scale.
-    // Range up to ~500 captures the 2022 spikes without being dominated by them.
-    const allValues = [];
-    Object.values(prices.values).forEach((arr) => arr.forEach((v) => v != null && allValues.push(v)));
     colorScale = d3.scaleSequential()
       .domain([20, 350])
       .interpolator(d3.interpolateRgbBasis(["#2ec4b6", "#f5d76e", "#ff7676", "#c92a2a"]))
       .clamp(true);
 
-    // -- SVG setup -- use a fixed viewBox so projection doesn't depend on
-    // the container's measured width at init time (it can be 0 if hidden).
+    // -- SVG setup --
     const container = document.getElementById("map-svg-container");
     const VW = 800;
     const VH = 540;
@@ -34,11 +32,8 @@
 
     pathGen = d3.geoPath().projection(projection);
 
-    // -- Tooltip --
-    tooltipEl = d3.select("body").append("div")
-      .attr("class", "country-tip");
+    tooltipEl = d3.select("body").append("div").attr("class", "country-tip");
 
-    // -- Countries --
     const features = topojson.feature(world, world.objects.countries).features;
 
     countriesNode = g.selectAll("path.country-path")
@@ -54,48 +49,59 @@
         const iso2 = isoFor(d);
         const name = (iso2 && PC.countryNames[iso2]) || d.properties.name || "—";
         const v = priceFor(iso2, PC.state.monthIndex);
+        const clickable = !!(iso2 && PC.data.prices.values[iso2]);
         tooltipEl
           .style("opacity", 1)
           .style("left", (event.pageX + 12) + "px")
           .style("top", (event.pageY + 12) + "px")
-          .html(`<strong>${name}</strong><span class="tip-price">${PC.fmt.eurMWh(v)}</span>`);
+          .html(`<strong>${name}</strong>
+                 <span class="tip-price">${PC.fmt.eurMWh(v)}</span>
+                 ${clickable ? "<span style='font-size:11px;color:var(--ink-mute);display:block;margin-top:3px;'>click to drill in →</span>" : ""}`);
       })
-      .on("mouseout", () => tooltipEl.style("opacity", 0));
+      .on("mouseout", () => tooltipEl.style("opacity", 0))
+      .on("click", function (event, d) {
+        const iso2 = isoFor(d);
+        if (!iso2) return;
+        // Only countries we have price data for are "useful" — quietly nudge for the rest.
+        if (!PC.data.prices.values[iso2]) {
+          PC.nudge && PC.nudge("No price data for this country.");
+          return;
+        }
+        // Mark selection in store -- the production chart and shelf will
+        // follow this via PC.on("selectedCountry").
+        PC.set({ selectedCountry: iso2 });
+        // Unlock the rest of the page (the user has done both required gates).
+        PC.setStage && PC.setStage("open");
+        // Highlight on the map.
+        countriesNode.classed("selected", (dd) => isoFor(dd) === iso2);
+        // Dismiss the "click a country" hint.
+        const hint = document.getElementById("map-hint");
+        if (hint) hint.classList.add("dismissed");
+        // Do NOT auto-scroll — let the user explore the drill panel first and
+        // use the "See its energy mix ↓" CTA when they're ready.
+      });
 
-    // -- Slider --
-    const slider = document.getElementById("time-slider");
-    slider.max = prices.dates.length - 1;
-    slider.value = 0;
-    slider.addEventListener("input", (e) => {
-      PC.set({ monthIndex: +e.target.value });
-    });
-
-    // Play button
-    const playBtn = document.getElementById("play-btn");
-    playBtn.addEventListener("click", togglePlay);
-
-    // -- Legend --
     renderLegend();
 
-    // React when conflict / monthIndex changes
     PC.on("conflict", () => onConflictChange());
     PC.on("monthIndex", () => render());
+    PC.on("selectedCountry", (c) => {
+      countriesNode.classed("selected", (dd) => isoFor(dd) === c);
+    });
 
-    // Initial state: focus on the conflict's pre-shock month or the first month.
     onConflictChange();
   }
 
   function onConflictChange() {
+    if (!PC.state.conflict) return;
     const cw = PC.conflictWindow();
     const dates = PC.data.prices.dates;
     let idx = dates.indexOf(cw.before);
     if (idx < 0) idx = 0;
-    document.getElementById("time-slider").value = idx;
     PC.set({ monthIndex: idx });
   }
 
   function isoFor(feature) {
-    // world-atlas TopoJSON exposes a numeric ISO 3166-1 code in `id`.
     if (feature.id && PC.isoNumTo2[feature.id]) return PC.isoNumTo2[feature.id];
     const p = feature.properties || {};
     if (p.iso_a2 && p.iso_a2 !== "-99") return p.iso_a2;
@@ -123,23 +129,23 @@
         return colorScale(v);
       });
 
-    // Big stat: average across reporting countries
     const vals = [];
     Object.values(PC.data.prices.values).forEach((arr) => {
       const v = arr[idx];
       if (v != null) vals.push(v);
     });
     const avg = vals.length ? d3.mean(vals) : null;
-    document.getElementById("map-avg-price").textContent = avg == null ? "—" : "€" + Math.round(avg);
-    document.getElementById("map-avg-sub").textContent = `monthly mean · ${date}`;
-
-    document.getElementById("slider-readout").textContent = humanDate(date);
+    const avgEl = document.getElementById("map-avg-price");
+    const subEl = document.getElementById("map-avg-sub");
+    if (avgEl) avgEl.textContent = avg == null ? "—" : "€" + Math.round(avg);
+    if (subEl) subEl.textContent = `monthly mean · ${date}`;
 
     // Event card
     const ev = PC.findEvent(date);
     const evDateEl = document.getElementById("event-date");
     const evTitleEl = document.getElementById("event-title");
     const evDescEl = document.getElementById("event-desc");
+    if (!evDateEl) return;
     if (ev) {
       evDateEl.textContent = humanDate(ev.date);
       evTitleEl.textContent = ev.title;
@@ -164,43 +170,12 @@
 
   function renderLegend() {
     const el = document.getElementById("map-legend");
+    if (!el) return;
     el.innerHTML = `
       <div class="map-legend-title">Day-ahead price · €/MWh</div>
       <div class="legend-bar"></div>
       <div class="legend-labels"><span>20</span><span>100</span><span>200</span><span>350+</span></div>
     `;
-  }
-
-  function togglePlay() {
-    const btn = document.getElementById("play-btn");
-    const slider = document.getElementById("time-slider");
-    const max = +slider.max;
-
-    if (playing) {
-      playing = false;
-      clearInterval(playTimer);
-      btn.textContent = "▶";
-      btn.classList.remove("playing");
-      return;
-    }
-    playing = true;
-    btn.textContent = "❚❚";
-    btn.classList.add("playing");
-
-    if (PC.state.monthIndex >= max) PC.set({ monthIndex: 0 });
-
-    playTimer = setInterval(() => {
-      const next = PC.state.monthIndex + 1;
-      if (next > max) {
-        clearInterval(playTimer);
-        playing = false;
-        btn.textContent = "▶";
-        btn.classList.remove("playing");
-        return;
-      }
-      slider.value = next;
-      PC.set({ monthIndex: next });
-    }, 280);
   }
 
   document.addEventListener("DOMContentLoaded", () => {

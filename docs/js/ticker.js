@@ -11,14 +11,17 @@
   let lastEventDate = null;     // date of the event that was active on the previous tick
   let autoOpenedFor = null;     // date of the event we auto-opened (so we don't re-open the same one)
   let initialized = false;      // skip auto-open on the very first render after page load / conflict pick
+  let mapInView = false;        // is the map section currently on screen?
 
   function init() {
     PC.on("monthIndex", () => update());
     PC.on("conflict", () => { lastEventDate = null; autoOpenedFor = null; initialized = false; update(); });
 
     document.getElementById("ticker-pill").addEventListener("click", () => {
+      // Pill click reveals the newspaper for the current event regardless of
+      // which section the user is on (so the floating timebar always works).
       const ev = currentEvent();
-      if (ev) openOverlay(ev);
+      if (ev) openOverlay(ev, /*force=*/true);
     });
 
     document.querySelectorAll("[data-newspaper-close]").forEach((el) => {
@@ -27,6 +30,19 @@
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape") closeOverlay();
     });
+
+    // Track whether the map section is visible — the newspaper auto-shows
+    // only while you're on the map page.
+    const mapSection = document.getElementById("map");
+    if (mapSection) {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((e) => {
+          mapInView = e.isIntersecting;
+          if (!mapInView) closeOverlay();
+        });
+      }, { threshold: 0.2 });
+      io.observe(mapSection);
+    }
 
     update();
   }
@@ -58,8 +74,9 @@
       }
 
       // Auto-open when the active event CHANGES — but never on the first
-      // render after a page load or conflict pick (that would feel intrusive).
-      if (initialized && ev.date !== lastEventDate && ev.date !== autoOpenedFor) {
+      // render after a page load or conflict pick (that would feel intrusive),
+      // and only while the user is actually looking at the map.
+      if (initialized && mapInView && ev.date !== lastEventDate && ev.date !== autoOpenedFor) {
         openOverlay(ev);
         autoOpenedFor = ev.date;
       }

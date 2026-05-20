@@ -1,3 +1,81 @@
 {
-    "error": "Date range exceeded a year limit for monthly data"
+    "zone": "AT",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "source": "nuclear",
+    "aggregationPeriod": "monthly",
+    "data": [
+        {
+            "datetime": "2024-01-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 201190
+        },
+        {
+            "datetime": "2024-02-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 206387
+        },
+        {
+            "datetime": "2024-03-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 210485
+        },
+        {
+            "datetime": "2024-04-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 141572
+        },
+        {
+            "datetime": "2024-05-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 91059
+        },
+        {
+            "datetime": "2024-06-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 94731
+        },
+        {
+            "datetime": "2024-07-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 148051
+        },
+        {
+            "datetime": "2024-08-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 235175
+        },
+        {
+            "datetime": "2024-09-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 232360
+        },
+        {
+            "datetime": "2024-10-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 159097
+        },
+        {
+            "datetime": "2024-11-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 267126
+        },
+        {
+            "datetime": "2024-12-01T00:00:00.000Z",
+            "updatedAt": "2026-05-01T11:20:44.102Z",
+            "estimationMethod": "MEASURED",
+            "value": 322597
+        }
+    ]
 }

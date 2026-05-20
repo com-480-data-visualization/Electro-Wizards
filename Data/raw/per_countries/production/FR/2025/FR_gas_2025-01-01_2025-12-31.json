@@ -2,80 +2,80 @@
     "zone": "FR",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "gas",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
-            "updatedAt": "2026-02-23T19:20:05.020Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2782931
+            "value": 2782579
         },
         {
             "datetime": "2025-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2695575
+            "value": 2695394
         },
         {
             "datetime": "2025-03-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1848983
+            "value": 1848642
         },
         {
             "datetime": "2025-04-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 535039
+            "value": 534764
         },
         {
             "datetime": "2025-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 331437
+            "value": 331314
         },
         {
             "datetime": "2025-06-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 485304
+            "value": 485288
         },
         {
             "datetime": "2025-07-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 685785
+            "value": 684961
         },
         {
             "datetime": "2025-08-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 682606
+            "value": 682935
         },
         {
             "datetime": "2025-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 340449
+            "value": 340448
         },
         {
             "datetime": "2025-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 888938
+            "value": 888955
         },
         {
             "datetime": "2025-11-01T00:00:00.000Z",
-            "updatedAt": "2026-03-01T10:22:38.567Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1596701
+            "value": 1596681
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1994129
+            "value": 1993975
         }
-    ],
-    "source": "gas",
-    "aggregationPeriod": "monthly"
+    ]
 }

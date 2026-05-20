@@ -1,82 +1,81 @@
 {
-    "zone": "GB-ORK",
+    "zone": "GB",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "wind",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
             "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 1005
+            "value": 9638946
         },
         {
             "datetime": "2023-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T20:20:37.719Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 1136
+            "value": 7203359
         },
         {
             "datetime": "2023-03-01T00:00:00.000Z",
             "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 1456
+            "value": 7542268
         },
         {
             "datetime": "2023-04-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 874
+            "value": 5540927
         },
         {
             "datetime": "2023-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T20:20:37.719Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 484
+            "value": 4362138
         },
         {
             "datetime": "2023-06-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 597
+            "value": 3898031
         },
         {
             "datetime": "2023-07-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 308
+            "estimationMethod": "MEASURED",
+            "value": 5871477
         },
         {
             "datetime": "2023-08-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 795
+            "value": 4893241
         },
         {
             "datetime": "2023-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T20:20:37.719Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 282
+            "value": 5075066
         },
         {
             "datetime": "2023-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 371
+            "value": 7565362
         },
         {
             "datetime": "2023-11-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 1926
+            "value": 7792268
         },
         {
             "datetime": "2023-12-01T00:00:00.000Z",
             "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 1783
+            "value": 10168155
         }
-    ],
-    "source": "wind",
-    "aggregationPeriod": "monthly"
+    ]
 }

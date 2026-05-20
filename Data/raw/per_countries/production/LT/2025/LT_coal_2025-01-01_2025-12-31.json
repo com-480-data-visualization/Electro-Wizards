@@ -2,80 +2,80 @@
     "zone": "LT",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "coal",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
-            "updatedAt": "2026-02-23T19:20:05.020Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
             "value": 44027
         },
         {
             "datetime": "2025-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
             "value": 21658
         },
         {
             "datetime": "2025-03-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 20186
+            "value": 20188
         },
         {
             "datetime": "2025-04-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 12983
+            "value": 12987
         },
         {
             "datetime": "2025-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 11965
+            "value": 11968
         },
         {
             "datetime": "2025-06-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 9332
+            "value": 9336
         },
         {
             "datetime": "2025-07-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
             "value": 3748
         },
         {
             "datetime": "2025-08-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 16322
+            "value": 16336
         },
         {
             "datetime": "2025-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 15589
+            "value": 15592
         },
         {
             "datetime": "2025-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 22649
+            "value": 22650
         },
         {
             "datetime": "2025-11-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 29113
+            "value": 29112
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 13734
+            "value": 14687
         }
-    ],
-    "source": "coal",
-    "aggregationPeriod": "monthly"
+    ]
 }

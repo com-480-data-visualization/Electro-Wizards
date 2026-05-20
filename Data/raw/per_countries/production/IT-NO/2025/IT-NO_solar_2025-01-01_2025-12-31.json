@@ -2,80 +2,80 @@
     "zone": "IT-NO",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "solar",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
-            "updatedAt": "2026-02-23T19:20:05.020Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 232865
+            "value": 232870
         },
         {
             "datetime": "2025-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 582590
+            "value": 582583
         },
         {
             "datetime": "2025-03-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1109254
+            "value": 1109261
         },
         {
             "datetime": "2025-04-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1379082
+            "value": 1379087
         },
         {
             "datetime": "2025-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1441186
+            "value": 1441217
         },
         {
             "datetime": "2025-06-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2054427
+            "value": 2054440
         },
         {
             "datetime": "2025-07-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2053063
+            "value": 2053025
         },
         {
             "datetime": "2025-08-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1828806
+            "value": 1828813
         },
         {
             "datetime": "2025-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1368384
+            "value": 1368386
         },
         {
             "datetime": "2025-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1092612
+            "value": 1092613
         },
         {
             "datetime": "2025-11-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 705719
+            "value": 705716
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 465166
+            "value": 465220
         }
-    ],
-    "source": "solar",
-    "aggregationPeriod": "monthly"
+    ]
 }

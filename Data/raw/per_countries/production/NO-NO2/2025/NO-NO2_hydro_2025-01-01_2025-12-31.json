@@ -2,80 +2,80 @@
     "zone": "NO-NO2",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "hydro",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
-            "updatedAt": "2026-02-23T19:20:05.020Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
             "value": 3391474
         },
         {
             "datetime": "2025-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
             "value": 3085993
         },
         {
             "datetime": "2025-03-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 3089728
+            "value": 3089724
         },
         {
             "datetime": "2025-04-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2627989
+            "value": 2627987
         },
         {
             "datetime": "2025-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2189957
+            "value": 2189954
         },
         {
             "datetime": "2025-06-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1957774
+            "value": 1957763
         },
         {
             "datetime": "2025-07-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2201365
+            "value": 2201363
         },
         {
             "datetime": "2025-08-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2510170
+            "value": 2509849
         },
         {
             "datetime": "2025-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2727673
+            "value": 2727668
         },
         {
             "datetime": "2025-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2523494
+            "value": 2523493
         },
         {
             "datetime": "2025-11-01T00:00:00.000Z",
-            "updatedAt": "2026-03-01T10:22:38.567Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 2740377
+            "value": 2739992
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 3066038
+            "value": 3066021
         }
-    ],
-    "source": "hydro",
-    "aggregationPeriod": "monthly"
+    ]
 }

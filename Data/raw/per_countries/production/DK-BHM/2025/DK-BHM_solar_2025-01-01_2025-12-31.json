@@ -1,88 +1,81 @@
 {
-    "zone": "DK-BHM",
+    "zone": "DK-DK2",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "solar",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
-            "updatedAt": "2026-02-23T19:20:05.020Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 901
+            "value": 17947
         },
         {
             "datetime": "2025-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 1563
+            "value": 45037
         },
         {
             "datetime": "2025-03-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 3606
+            "value": 123253
         },
         {
             "datetime": "2025-04-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 5101
+            "value": 201501
         },
         {
             "datetime": "2025-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
-            "value": 6104
+            "value": 241622
         },
         {
             "datetime": "2025-06-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 6256
+            "updatedAt": "2026-05-01T11:16:40.100Z",
+            "estimationMethod": "MEASURED",
+            "value": 226936
         },
         {
             "datetime": "2025-07-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 5164
+            "updatedAt": "2026-05-01T11:16:40.100Z",
+            "estimationMethod": "MEASURED",
+            "value": 184585
         },
         {
             "datetime": "2025-08-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 4145
+            "updatedAt": "2026-05-01T11:16:40.100Z",
+            "estimationMethod": "MEASURED",
+            "value": 245371
         },
         {
             "datetime": "2025-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 3489
+            "updatedAt": "2026-05-01T11:16:40.100Z",
+            "estimationMethod": "MEASURED",
+            "value": 165453
         },
         {
             "datetime": "2025-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 3646
+            "updatedAt": "2026-05-01T11:16:40.100Z",
+            "estimationMethod": "MEASURED",
+            "value": 82049
         },
         {
             "datetime": "2025-11-01T00:00:00.000Z",
-            "updatedAt": "2026-03-01T10:22:38.567Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 3102
+            "updatedAt": "2026-05-01T11:16:40.100Z",
+            "estimationMethod": "MEASURED",
+            "value": 28581
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 2968
+            "updatedAt": "2026-05-01T11:16:40.100Z",
+            "estimationMethod": "MEASURED",
+            "value": 15064
         }
-    ],
-    "source": "solar",
-    "aggregationPeriod": "monthly"
+    ]
 }

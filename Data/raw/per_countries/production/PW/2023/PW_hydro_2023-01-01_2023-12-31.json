@@ -2,6 +2,8 @@
     "zone": "PW",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "hydro",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -87,7 +89,5 @@
             "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
             "value": 0
         }
-    ],
-    "source": "hydro",
-    "aggregationPeriod": "monthly"
+    ]
 }

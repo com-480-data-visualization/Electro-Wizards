@@ -2,6 +2,8 @@
     "zone": "US-CAR-SC",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "solar",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
@@ -71,12 +73,10 @@
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 86057
+            "value": 86392
         }
-    ],
-    "source": "solar",
-    "aggregationPeriod": "monthly"
+    ]
 }

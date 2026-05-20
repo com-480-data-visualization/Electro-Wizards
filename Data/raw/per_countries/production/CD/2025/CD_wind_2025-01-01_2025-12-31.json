@@ -2,6 +2,8 @@
     "zone": "CD",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "wind",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
@@ -87,7 +89,5 @@
             "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
             "value": 0
         }
-    ],
-    "source": "wind",
-    "aggregationPeriod": "monthly"
+    ]
 }

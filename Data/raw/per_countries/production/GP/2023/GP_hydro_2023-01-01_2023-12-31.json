@@ -2,6 +2,8 @@
     "zone": "GP",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "hydro",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -87,7 +89,5 @@
             "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
             "value": 2229
         }
-    ],
-    "source": "hydro",
-    "aggregationPeriod": "monthly"
+    ]
 }

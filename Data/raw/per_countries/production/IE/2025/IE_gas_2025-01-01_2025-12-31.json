@@ -2,92 +2,92 @@
     "zone": "IE",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "gas",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
-            "updatedAt": "2026-02-23T19:20:05.020Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1345205
+            "value": 1344727
         },
         {
             "datetime": "2025-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 887339
+            "value": 886743
         },
         {
             "datetime": "2025-03-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1198782
+            "value": 1197494
         },
         {
             "datetime": "2025-04-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1268051
+            "value": 1266763
         },
         {
             "datetime": "2025-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1253740
+            "value": 1252835
         },
         {
             "datetime": "2025-06-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1077518
+            "value": 1076584
         },
         {
             "datetime": "2025-07-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1492342
+            "value": 1491579
         },
         {
             "datetime": "2025-08-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1311291
+            "value": 1310269
         },
         {
             "datetime": "2025-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1147127
+            "value": 1146055
         },
         {
             "datetime": "2025-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1325531
+            "value": 1324323
         },
         {
             "datetime": "2025-11-01T00:00:00.000Z",
-            "updatedAt": "2026-03-01T10:22:38.567Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1423388
+            "value": 1422341
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 1344109
+            "value": 1342956
         }
-    ],
-    "source": "gas",
-    "aggregationPeriod": "monthly"
+    ]
 }

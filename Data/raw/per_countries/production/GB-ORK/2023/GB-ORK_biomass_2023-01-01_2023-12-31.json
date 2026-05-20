@@ -1,82 +1,81 @@
 {
-    "zone": "GB-ORK",
+    "zone": "GB",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "biomass",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
             "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 128
+            "value": 1201343
         },
         {
             "datetime": "2023-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T20:20:37.719Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 210
+            "value": 1269700
         },
         {
             "datetime": "2023-03-01T00:00:00.000Z",
             "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 266
+            "value": 1211602
         },
         {
             "datetime": "2023-04-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 220
+            "value": 1224259
         },
         {
             "datetime": "2023-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T20:20:37.719Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 105
+            "value": 653053
         },
         {
             "datetime": "2023-06-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 99
+            "value": 579345
         },
         {
             "datetime": "2023-07-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
-            "isEstimated": true,
-            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 54
+            "estimationMethod": "MEASURED",
+            "value": 1020302
         },
         {
             "datetime": "2023-08-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 176
+            "value": 851644
         },
         {
             "datetime": "2023-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T20:20:37.719Z",
+            "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 77
+            "value": 880410
         },
         {
             "datetime": "2023-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:33.961Z",
+            "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 98
+            "value": 1357874
         },
         {
             "datetime": "2023-11-01T00:00:00.000Z",
             "updatedAt": "2026-02-01T07:23:33.961Z",
             "estimationMethod": "MEASURED",
-            "value": 503
+            "value": 1697239
         },
         {
             "datetime": "2023-12-01T00:00:00.000Z",
             "updatedAt": "2026-02-09T20:20:37.719Z",
             "estimationMethod": "MEASURED",
-            "value": 347
+            "value": 1458341
         }
-    ],
-    "source": "biomass",
-    "aggregationPeriod": "monthly"
+    ]
 }

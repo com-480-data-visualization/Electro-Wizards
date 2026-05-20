@@ -2,11 +2,14 @@
     "zone": "AW",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "wind",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:21:11.398Z",
-            "estimationMethod": "MEASURED",
+            "updatedAt": "2026-04-01T12:19:35.756Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
             "value": 11403
         },
         {
@@ -79,7 +82,5 @@
             "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
             "value": 20334
         }
-    ],
-    "source": "wind",
-    "aggregationPeriod": "monthly"
+    ]
 }

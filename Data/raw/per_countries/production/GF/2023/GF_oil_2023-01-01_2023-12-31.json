@@ -2,6 +2,8 @@
     "zone": "GF",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "oil",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -83,7 +85,5 @@
             "estimationMethod": "MEASURED",
             "value": 79725
         }
-    ],
-    "source": "oil",
-    "aggregationPeriod": "monthly"
+    ]
 }

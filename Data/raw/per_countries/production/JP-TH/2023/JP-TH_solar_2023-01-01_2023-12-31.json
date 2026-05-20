@@ -2,6 +2,8 @@
     "zone": "JP-TH",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "solar",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -87,7 +89,5 @@
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
             "value": 346802
         }
-    ],
-    "source": "solar",
-    "aggregationPeriod": "monthly"
+    ]
 }

@@ -2,6 +2,8 @@
     "zone": "TL",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "coal",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
@@ -82,12 +84,10 @@
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-01-08T23:17:24.171Z",
+            "updatedAt": "2026-04-01T12:21:15.214Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
             "value": 0
         }
-    ],
-    "source": "coal",
-    "aggregationPeriod": "monthly"
+    ]
 }

@@ -2,92 +2,92 @@
     "zone": "GB-NIR",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "biomass",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
-            "updatedAt": "2026-02-23T19:20:05.020Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 55529
+            "value": 55491
         },
         {
             "datetime": "2025-02-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 42787
+            "value": 42759
         },
         {
             "datetime": "2025-03-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 44927
+            "value": 44903
         },
         {
             "datetime": "2025-04-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 50166
+            "value": 49929
         },
         {
             "datetime": "2025-05-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 57695
+            "value": 57472
         },
         {
             "datetime": "2025-06-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 46364
+            "value": 46197
         },
         {
             "datetime": "2025-07-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 38992
+            "value": 38878
         },
         {
             "datetime": "2025-08-01T00:00:00.000Z",
-            "updatedAt": "2026-02-01T07:23:46.870Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 43984
+            "value": 43836
         },
         {
             "datetime": "2025-09-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 43197
+            "value": 43049
         },
         {
             "datetime": "2025-10-01T00:00:00.000Z",
-            "updatedAt": "2026-02-09T12:16:59.504Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 40326
+            "value": 40269
         },
         {
             "datetime": "2025-11-01T00:00:00.000Z",
-            "updatedAt": "2026-03-01T10:22:38.567Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 44774
+            "value": 44705
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_MODE_BREAKDOWN",
-            "value": 44734
+            "value": 44671
         }
-    ],
-    "source": "biomass",
-    "aggregationPeriod": "monthly"
+    ]
 }

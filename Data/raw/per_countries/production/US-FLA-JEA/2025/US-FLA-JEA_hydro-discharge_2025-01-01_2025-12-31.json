@@ -2,6 +2,8 @@
     "zone": "US-FLA-JEA",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "hydro discharge",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
@@ -71,11 +73,9 @@
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-05-01T11:16:40.100Z",
             "estimationMethod": "MEASURED",
             "value": null
         }
-    ],
-    "source": "hydro discharge",
-    "aggregationPeriod": "monthly"
+    ]
 }

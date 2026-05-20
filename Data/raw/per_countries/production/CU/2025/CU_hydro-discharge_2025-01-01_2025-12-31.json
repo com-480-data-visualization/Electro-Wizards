@@ -2,6 +2,8 @@
     "zone": "CU",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "hydro discharge",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
@@ -87,7 +89,5 @@
             "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
             "value": null
         }
-    ],
-    "source": "hydro discharge",
-    "aggregationPeriod": "monthly"
+    ]
 }

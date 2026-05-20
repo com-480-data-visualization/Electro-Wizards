@@ -2,6 +2,8 @@
     "zone": "TW",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "biomass",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -77,7 +79,5 @@
             "estimationMethod": "MEASURED",
             "value": 17917
         }
-    ],
-    "source": "biomass",
-    "aggregationPeriod": "monthly"
+    ]
 }

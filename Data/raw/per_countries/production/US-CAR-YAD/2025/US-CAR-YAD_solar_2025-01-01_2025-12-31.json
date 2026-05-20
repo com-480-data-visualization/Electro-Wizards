@@ -2,6 +2,8 @@
     "zone": "US-CAR-YAD",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "solar",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2025-01-01T00:00:00.000Z",
@@ -74,12 +76,10 @@
         },
         {
             "datetime": "2025-12-01T00:00:00.000Z",
-            "updatedAt": "2026-03-06T15:16:11.423Z",
+            "updatedAt": "2026-04-01T12:21:15.214Z",
             "isEstimated": true,
             "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
-            "value": 334
+            "value": 274
         }
-    ],
-    "source": "solar",
-    "aggregationPeriod": "monthly"
+    ]
 }

@@ -2,6 +2,8 @@
     "zone": "NZ",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "oil",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -75,7 +77,5 @@
             "estimationMethod": "MEASURED",
             "value": 0
         }
-    ],
-    "source": "oil",
-    "aggregationPeriod": "monthly"
+    ]
 }

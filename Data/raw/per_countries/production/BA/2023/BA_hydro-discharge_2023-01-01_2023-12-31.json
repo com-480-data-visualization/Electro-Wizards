@@ -2,6 +2,8 @@
     "zone": "BA",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "hydro discharge",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -76,7 +78,5 @@
             "estimationMethod": "MEASURED",
             "value": 6680
         }
-    ],
-    "source": "hydro discharge",
-    "aggregationPeriod": "monthly"
+    ]
 }

@@ -1,3 +1,83 @@
 {
-    "error": "Date range exceeded a year limit for monthly data"
+    "zone": "US-SW-SRP",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "source": "nuclear",
+    "aggregationPeriod": "monthly",
+    "data": [
+        {
+            "datetime": "2024-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-07T15:34:16.326Z",
+            "estimationMethod": "MEASURED",
+            "value": 1084928
+        },
+        {
+            "datetime": "2024-02-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "estimationMethod": "MEASURED",
+            "value": 1023429
+        },
+        {
+            "datetime": "2024-03-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "estimationMethod": "MEASURED",
+            "value": 1004687
+        },
+        {
+            "datetime": "2024-04-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
+            "value": 1014827
+        },
+        {
+            "datetime": "2024-05-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "estimationMethod": "MEASURED",
+            "value": 1146161
+        },
+        {
+            "datetime": "2024-06-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "estimationMethod": "MEASURED",
+            "value": 1276432
+        },
+        {
+            "datetime": "2024-07-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "estimationMethod": "MEASURED",
+            "value": 1413348
+        },
+        {
+            "datetime": "2024-08-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "estimationMethod": "MEASURED",
+            "value": 1356671
+        },
+        {
+            "datetime": "2024-09-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "estimationMethod": "MEASURED",
+            "value": 1227510
+        },
+        {
+            "datetime": "2024-10-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
+            "value": 872323
+        },
+        {
+            "datetime": "2024-11-01T00:00:00.000Z",
+            "updatedAt": "2026-02-02T08:15:52.883Z",
+            "estimationMethod": "MEASURED",
+            "value": 826824
+        },
+        {
+            "datetime": "2024-12-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "estimationMethod": "MEASURED",
+            "value": 943533
+        }
+    ]
 }

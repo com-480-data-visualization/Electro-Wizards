@@ -1,3 +1,93 @@
 {
-    "error": "Date range exceeded a year limit for monthly data"
+    "zone": "YE",
+    "temporalGranularity": "monthly",
+    "unit": "MWh",
+    "source": "solar",
+    "aggregationPeriod": "monthly",
+    "data": [
+        {
+            "datetime": "2024-01-01T00:00:00.000Z",
+            "updatedAt": "2026-02-07T15:34:16.326Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 35380
+        },
+        {
+            "datetime": "2024-02-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 37134
+        },
+        {
+            "datetime": "2024-03-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 46141
+        },
+        {
+            "datetime": "2024-04-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 49789
+        },
+        {
+            "datetime": "2024-05-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 47027
+        },
+        {
+            "datetime": "2024-06-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 43864
+        },
+        {
+            "datetime": "2024-07-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 46057
+        },
+        {
+            "datetime": "2024-08-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 40987
+        },
+        {
+            "datetime": "2024-09-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 48065
+        },
+        {
+            "datetime": "2024-10-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 45068
+        },
+        {
+            "datetime": "2024-11-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 35181
+        },
+        {
+            "datetime": "2024-12-01T00:00:00.000Z",
+            "updatedAt": "2026-01-27T14:46:04.945Z",
+            "isEstimated": true,
+            "estimationMethod": "ESTIMATED_GENERAL_PURPOSE_ZONE_MODEL",
+            "value": 39242
+        }
+    ]
 }

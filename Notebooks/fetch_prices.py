@@ -24,7 +24,7 @@ def iterate_across_time_country(zones, begin_date, end_date):
 
         os.makedirs("../Data/raw/per_countries/prices/"+ str(zone) + "/" + str(date), exist_ok=True)
         start_date = str(date)+"-01-01"
-        end_date = str(date)+"-12-31"
+        end_date = str(date)+"-05-19"
         file_name = "price_" + str(zone)+"_" + str(start_date) + "_" + str(end_date)
         result = make_request(zone, start_date, end_date).json()
         with open(f"../Data/raw/per_countries/prices/" + str(zone) + "/" + str(date) + "/" + str(file_name) + ".json", 'w', encoding='utf-8') as f:
@@ -76,8 +76,8 @@ if __name__=="__main__":
     ]
     zones = europe_codes
     
-    begin_date = 2021
-    end_date = 2025
+    begin_date = 2025
+    end_date = 2026
     iterate_across_time_country(zones, begin_date, end_date)
     
 

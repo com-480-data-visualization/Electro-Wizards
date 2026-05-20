@@ -1,0 +1,51 @@
+<div id="map" style="height: 600px;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<script>
+var map = L.map('map').setView([54, 15], 4);
+
+// Base layer (just for background)
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
+}).addTo(map);
+
+// Example GeoJSON (you'll replace with Europe map)
+fetch('https://raw.githubusercontent.com/leakyMirror/map-of-europe/master/GeoJSON/europe.geojson')
+.then(res => res.json())
+.then(data => {
+    L.geoJSON(data, {
+        style: function(feature) {
+            return {
+                fillColor: getColor(Math.random()), // placeholder
+                weight: 1,
+                color: 'white',
+                fillOpacity: 0.7
+            };
+        },
+        onEachFeature: function(feature, layer) {
+            layer.on({
+                mouseover: function(e) {
+                    e.target.setStyle({ weight: 3 });
+                },
+                mouseout: function(e) {
+                    e.target.setStyle({ weight: 1 });
+                },
+                click: function() {
+                    alert(feature.properties.NAME);
+                }
+            });
+        }
+    }).addTo(map);
+});
+
+// simple color scale
+function getColor(value) {
+    return value > 0.7 ? '#800026' :
+           value > 0.5 ? '#BD0026' :
+           value > 0.3 ? '#E31A1C' :
+           value > 0.1 ? '#FC4E2A' :
+                         '#FFEDA0';
+}
+</script>

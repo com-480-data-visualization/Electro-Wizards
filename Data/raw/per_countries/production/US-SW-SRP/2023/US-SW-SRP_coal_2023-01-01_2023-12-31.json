@@ -2,6 +2,8 @@
     "zone": "US-SW-SRP",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "coal",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -77,7 +79,5 @@
             "estimationMethod": "ESTIMATED_TIME_SLICER_AVERAGE",
             "value": 141160
         }
-    ],
-    "source": "coal",
-    "aggregationPeriod": "monthly"
+    ]
 }

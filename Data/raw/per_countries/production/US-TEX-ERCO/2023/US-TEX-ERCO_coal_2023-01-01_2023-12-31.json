@@ -2,6 +2,8 @@
     "zone": "US-TEX-ERCO",
     "temporalGranularity": "monthly",
     "unit": "MWh",
+    "source": "coal",
+    "aggregationPeriod": "monthly",
     "data": [
         {
             "datetime": "2023-01-01T00:00:00.000Z",
@@ -75,7 +77,5 @@
             "estimationMethod": "MEASURED",
             "value": 4879228
         }
-    ],
-    "source": "coal",
-    "aggregationPeriod": "monthly"
+    ]
 }

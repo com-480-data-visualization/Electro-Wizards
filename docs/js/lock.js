@@ -38,7 +38,7 @@
       hero: [],
       choice: ["hero", "choice"],
       map: ["hero", "choice", "map"],
-      open: ["hero", "choice", "map", "production", "shelf", "receipt", "compare"],
+      open: ["hero", "choice", "map", "production", "shelf", "receipt", "compare", "conclusion"],
     };
     const unlocked = new Set(unlockMap[PC.stage] || []);
     document.querySelectorAll(".nav-links a").forEach((a) => {

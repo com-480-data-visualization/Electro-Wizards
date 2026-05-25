@@ -38,6 +38,7 @@
     <li><a href="#shelf" data-nav="shelf" data-locked>Shelf</a></li>
     <li><a href="#receipt" data-nav="receipt" data-locked>Receipt</a></li>
     <li><a href="#compare" data-nav="compare" data-locked>Compare</a></li>
+    <li><a href="#conclusion" data-nav="conclusion" data-locked>End</a></li>
   </ul>
   <button class="nav-reset" id="nav-reset" title="Reset story">Reset</button>
 </nav>
@@ -263,6 +264,66 @@
   <div class="compare-legend" id="compare-legend"></div>
 </section>
 
+<!-- ========== CONCLUSION ========== -->
+<section id="conclusion" class="page conclusion-page">
+  <div class="conclusion-wrap">
+    <p class="kicker">The takeaway</p>
+    <h2>When the world cracks, the lights flicker — but not always equally.</h2>
+
+    <div class="conclusion-grid">
+      <article class="conclusion-card">
+        <div class="conclusion-emoji">🇺🇦</div>
+        <h3>Ukraine: a structural shock</h3>
+        <p>
+          The Russia–Ukraine war hit Europe's electricity at its heart — natural gas.
+          Russian pipeline gas had set the marginal price of power across the
+          continent for decades. When it stopped, day-ahead prices tripled,
+          peaking above <strong>€700/MWh</strong> in summer 2022, and the energy
+          mix structurally tilted: coal back on, then renewables and LNG to fill
+          the gap.
+        </p>
+      </article>
+
+      <article class="conclusion-card">
+        <div class="conclusion-emoji">🇮🇷</div>
+        <h3>Iran: a softer ripple</h3>
+        <p>
+          The Iran flare-up has barely touched European electricity so far.
+          Europe sits behind two buffers — full gas storage and a more
+          diversified LNG supply — so a Middle-East shock now translates into
+          a single-digit percent price wobble, not a triple-digit spike.
+          The contrast is the lesson: the same shape of crisis can hit very
+          differently depending on the grid that absorbs it.
+        </p>
+      </article>
+
+      <article class="conclusion-card highlight">
+        <div class="conclusion-emoji">⚓</div>
+        <h3>The Strait of Hormuz — a slow-burn risk</h3>
+        <p>
+          Roughly <strong>20% of global LNG</strong> and a quarter of seaborne oil
+          pass through the Strait of Hormuz. The recent disruptions have already
+          nudged LNG insurance premiums and freight rates higher, and our latest
+          months of data show European prices drifting up again. It is not a
+          2022-style spike — yet — but a reminder that any choke point on the
+          world's energy map sends ripples all the way to your electricity bill.
+        </p>
+      </article>
+    </div>
+
+    <div class="conclusion-final">
+      <p>
+        A conflict that erupts thousands of kilometres from your home rewrites
+        the price tag on your bread, your heating, and the news on your
+        screen. Energy is the most international good there is, and the
+        electricity market — fast, transparent, hourly — is the cleanest mirror
+        we have of those distant tremors.
+      </p>
+      <p class="conclusion-signature">— The <em>Electro-Wizards</em></p>
+    </div>
+  </div>
+</section>
+
 <footer class="site-footer">
   <p>Power &amp; Conflict · Data Visualization 2026 · COM-480</p>
 </footer>
@@ -277,7 +338,8 @@
     </button>
   </div>
   <div class="timebar-controls">
-    <button class="play-btn" id="play-btn" aria-label="Play timeline">▶</button>
+    <button class="play-btn" id="play-btn-slow" data-speed="2000" aria-label="Play slowly (1 month / 2s)" title="Slow: 1 month / 2s">▶</button>
+    <button class="play-btn" id="play-btn-fast" data-speed="280"  aria-label="Play fast" title="Fast">▶▶</button>
     <input type="range" id="time-slider" min="0" max="100" value="0">
     <div class="slider-readout" id="slider-readout">—</div>
   </div>

@@ -44,9 +44,9 @@ An interactive scrollytelling experience exploring how the **Russia–Ukraine wa
 ```
 ## Milestones
 
-- [Milestone 1 report](Milestone_1_Report.pdf) — problematic, datasets, EDA
-- [Milestone 2 report](Milestone_2_Report.pdf) — tools, architecture, sketches
-- [Milestone 3 files](Milestone%203/) — final deliverable spec
+- [Milestone 1 report](Milestone_1_Report.pdf): problematic, datasets, EDA
+- [Milestone 2 report](Milestone_2_Report.pdf): tools, architecture, sketches
+- [Milestone 3](Milestone%203/): Process Book is too heavy, so it can be found in the following [drive](https://drive.google.com/drive/folders/11yphYRnE_vurs84u-hMEjyUQRTI_3vYu?usp=sharing)
 ## How to use our webiste
 
 The page is meant to be used by scrolling from top to bottom. Some parts of the story only become active after you make a choice, so it is best to follow the order of the sections.

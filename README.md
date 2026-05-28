@@ -11,7 +11,7 @@ An interactive scrollytelling experience exploring how the **Russia–Ukraine wa
 | Christopher Soriano | 326354  |
 | Timothé Henri Robert Dard | 340944  |
 
-## What's in here
+## Git detail
 
 ```
 .
@@ -43,24 +43,91 @@ An interactive scrollytelling experience exploring how the **Russia–Ukraine wa
 └── Website Preliminary Design.pdf
 ```
 
-## The story we tell
+## How to use our webiste
 
-1. **Hero** — a quiet "stable" backdrop with the thesis: *when the world cracks, the lights flicker*.
-2. **Pick a shock** — Ukraine (2022) or Iran (2024–26). The whole site re-skins to that conflict's flag colours and loads its event timeline.
-3. **Europe priced in shock waves** — choropleth of monthly day-ahead electricity prices for ~30 European countries from 2019 → 2025. Drag the slider or hit play; the map tints from teal (cheap) → yellow → red (peak crisis). Annotated events appear on the right.
-4. **The energy mix shifts under pressure** — stacked-area chart of monthly production by source for any country. Toggle absolute vs. share, click legend dots to mute sources. A "shock" marker shows when the conflict began. A short auto-generated takeaway tells the user what changed.
-5. **The shock landed in your pantry** — a hand-drawn-feel shelf of 9 everyday item categories (bread, dairy, meat, oils, fruit, veg, sugar, coffee, electricity). Hover any item for a tooltip with before/peak/latest prices and a sparkline. Click items to drop them in your basket.
-6. **Your conflict receipt** — a printer-style receipt of the basket showing what you would have paid before the shock, at peak, and today, with the war's added cost spelled out.
+The page is meant to be used by scrolling from top to bottom. Some parts of the story only become active after you make a choice, so it is best to follow the order of the sections.
 
-## Run it locally
+## 1. Start the story
 
-```bash
-cd docs
-python3 -m http.server 8765
-# then open http://localhost:8765
-```
+Begin on the landing page and scroll down, or click **Begin**.
 
-That's it — the site is plain HTML/CSS/vanilla-JS plus D3.js loaded from a CDN. No build step.
+## 2. Choose a conflict
+
+In the conflict section, choose one of the two stories:
+
+* **Russia–Ukraine**
+* **Iran flare-up**
+
+Click on the flag of the conflict you want to follow.
+
+After you choose a conflict, the rest of the website adapts to that choice. The map, explanations, shelf, and receipt will be based on the selected conflict.
+
+## 3. Explore the electricity price map
+
+The map shows European countries coloured by their monthly day-ahead electricity price.
+
+Use the **timeline slider** to move through time. As you drag the slider, the map updates to show how prices changed month by month.
+
+You can also click on a country. This opens a small country view and lets you continue the story for that specific country.
+
+On the side, you can see the **top 10 most expensive grids**. This ranking updates when the timeline changes.
+
+## 4. Look at the energy mix
+
+After selecting a country, continue to the energy mix section.
+
+This part shows how the country produced electricity over time. You can use it to see whether the country relied more on gas, coal, renewables, nuclear, or other sources during the selected period.
+
+There are two ways to view the chart:
+
+* **Absolute**: shows the amount of electricity produced by each source.
+* **Share of mix**: shows the percentage contribution of each source.
+
+Hover over the chart to inspect values more closely.
+
+The chart is linked to the selected country, so if you choose another country on the map, this section updates too.
+
+## 5. Use the grocery shelf
+
+The shelf connects the energy story to everyday life.
+
+The prices shown depend on the selected country and the date chosen with the timeline slider. Hover over an item to see how its price changed over time.
+
+Click on items to add them to your basket.
+
+## 6. Check your receipt
+
+Once you have added items from the shelf, scroll to the receipt section.
+
+The receipt compares what your basket would have cost:
+
+* before the shock,
+* at the peak,
+* and at the selected date.
+
+This helps show how a conflict can move from energy markets into consumer prices.
+
+You can clear the basket and try again with different items.
+
+## 7. Compare the two conflicts
+
+Near the end, the website compares the two crises side by side.
+
+The timelines are aligned around the shock month, so you can compare how strongly each conflict affected European electricity prices.
+
+This section is useful for seeing that not all conflicts have the same effect. The Russia–Ukraine shock had a much stronger impact on European electricity markets, while the Iran-related shock appears smaller in the data shown on the website.
+
+## 8. Restart if needed
+
+Use the **Reset** button or return to the top of the page if you want to choose another conflict and explore the story again.
+
+## Data used
+
+The website uses electricity prices, electricity production data, and consumer price indices. The main sources mentioned on the page are:
+
+* ENTSO-E for day-ahead electricity prices,
+* ElectricityMaps for electricity production mix,
+* Eurostat HICP for consumer price data.
 
 ## Rebuild the data files
 
@@ -72,17 +139,10 @@ python3 src/website_data/build_website_data.py
 
 This produces:
 
-- `prices_monthly.json` — monthly day-ahead prices, 29 European countries, 2019-2025
-- `production_monthly.json` — monthly production by source, 31 European countries, 2021-2025
-- `items_monthly.json` — Eurostat HICP-derived consumer prices for 9 product categories
-- `timeline.json` — annotated events for each conflict
-
-## Tech stack
-
-- **HTML / CSS / vanilla JavaScript** — no framework, no bundler.
-- **D3.js v7** — geo-projection, scales, axes, area generator, transitions.
-- **topojson-client** — decoding the world map from `world-atlas`.
-- **Python / pandas** — offline data preparation.
+- `prices_monthly.json`: monthly day-ahead prices, 29 European countries, 2019-2025
+- `production_monthly.json`: monthly production by source, 31 European countries, 2021-2025
+- `items_monthly.json`: Eurostat HICP-derived consumer prices for 9 product categories
+- `timeline.json`: annotated events for each conflict
 
 ## Data sources
 

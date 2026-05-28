@@ -42,7 +42,11 @@ An interactive scrollytelling experience exploring how the **Russia–Ukraine wa
 ├── Milestone 3.pdf
 └── Website Preliminary Design.pdf
 ```
+## Milestones
 
+- [Milestone 1 report](Milestone_1_Report.pdf) — problematic, datasets, EDA
+- [Milestone 2 report](Milestone_2_Report.pdf) — tools, architecture, sketches
+- [Milestone 3 files](Milestone%203/) — final deliverable spec
 ## How to use our webiste
 
 The page is meant to be used by scrolling from top to bottom. Some parts of the story only become active after you make a choice, so it is best to follow the order of the sections.
@@ -152,8 +156,3 @@ This produces:
 | Production by source | [ElectricityMaps API](https://api.electricitymaps.com/) | 2021-2025, monthly |
 | Consumer prices (HICP) | Eurostat | 2021-2025, monthly |
 
-## Milestones
-
-- [Milestone 1 report](Milestone_1_Report.pdf) — problematic, datasets, EDA
-- [Milestone 2 report](Milestone_2_Report.pdf) — tools, architecture, sketches
-- [Milestone 3 brief](Milestone%203.pdf) — final deliverable spec

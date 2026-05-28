@@ -143,8 +143,8 @@ python3 src/website_data/build_website_data.py
 
 This produces:
 
-- `prices_monthly.json`: monthly day-ahead prices, 29 European countries, 2019-2025
-- `production_monthly.json`: monthly production by source, 31 European countries, 2021-2025
+- `prices_monthly.json`: monthly day-ahead prices, 29 European countries, 2019-2026
+- `production_monthly.json`: monthly production by source, 31 European countries, 2021-2026
 - `items_monthly.json`: Eurostat HICP-derived consumer prices for 9 product categories
 - `timeline.json`: annotated events for each conflict
 

@@ -1,4 +1,4 @@
-/* Hero canvas: subtle particle "energy grid" background. */
+// Hero canvas: particle "energy grid" background.
 (function () {
   function init() {
     const canvas = document.getElementById("hero-canvas");

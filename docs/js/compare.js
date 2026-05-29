@@ -1,6 +1,4 @@
-/* Conflict-comparison: aligns both conflicts at "months since shock" = 0 and
- * overlays the EU average price trajectory for each. Lets the user see at
- * a glance how Ukraine 2022 dwarfs Iran 2024. */
+// Conflict comparison: EU avg price aligned at month 0 = shock for each crisis.
 (function () {
   let host;
 

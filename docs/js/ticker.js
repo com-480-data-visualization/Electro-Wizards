@@ -1,12 +1,5 @@
-/* News pill (in the floating timebar) + full newspaper-clipping overlay.
- *
- * - The pill shows the latest event headline and date. Clicking it opens
- *   the full newspaper-clipping overlay.
- * - When the slider crosses INTO a new event (an event that wasn't active
- *   on the previous tick), we briefly auto-show the overlay so the user
- *   doesn't miss the moment. Manual dismiss = no auto-popup until the
- *   active event changes again.
- */
+// News pill + newspaper overlay. Auto-pops once when the slider crosses onto
+// a new event, then waits for the next event before doing it again.
 (function () {
   let lastEventDate = null;     // date of the event that was active on the previous tick
   let autoOpenedFor = null;     // date of the event we auto-opened (so we don't re-open the same one)
@@ -31,8 +24,7 @@
       if (e.key === "Escape") closeOverlay();
     });
 
-    // Track whether the map section is visible — the newspaper auto-shows
-    // only while you're on the map page.
+    // Newspaper auto-shows only while the map is in view.
     const mapSection = document.getElementById("map");
     if (mapSection) {
       const io = new IntersectionObserver((entries) => {
@@ -73,9 +65,8 @@
         setTimeout(() => { textEl.textContent = nextText; textEl.style.opacity = 1; }, 140);
       }
 
-      // Auto-open when the active event CHANGES — but never on the first
-      // render after a page load or conflict pick (that would feel intrusive),
-      // and only while the user is actually looking at the map.
+      // Auto-open when the active event changes, but not on the first render
+      // after a conflict pick, and only while the map is in view.
       if (initialized && mapInView && ev.date !== lastEventDate && ev.date !== autoOpenedFor) {
         openOverlay(ev);
         autoOpenedFor = ev.date;
@@ -83,7 +74,7 @@
       lastEventDate = ev.date;
     } else {
       dateEl.textContent = prettyDate(date);
-      textEl.textContent = "Calm period — no event on the timeline yet.";
+      textEl.textContent = "Calm period, no event on the timeline yet.";
       lastEventDate = null;
     }
     initialized = true;

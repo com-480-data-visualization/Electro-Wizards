@@ -1,6 +1,4 @@
-/* ==========================================================================
-   Power & Conflict — main stylesheet
-   ========================================================================== */
+/* Power & Conflict, main stylesheet */
 
 :root {
   --bg-0: #07080d;
@@ -78,9 +76,7 @@ h1, h2, h3, h4 {
   margin: 0 auto;
 }
 
-/* ==========================================================================
-   Top nav
-   ========================================================================== */
+/* Top nav */
 .nav {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -127,9 +123,7 @@ h1, h2, h3, h4 {
 }
 .nav-reset:hover { color: var(--ink); border-color: var(--accent); }
 
-/* ==========================================================================
-   Page sections
-   ========================================================================== */
+/* Page sections */
 .page {
   position: relative;
   min-height: 100vh;
@@ -154,9 +148,7 @@ h1, h2, h3, h4 {
   margin-bottom: 14px;
 }
 
-/* ==========================================================================
-   HERO
-   ========================================================================== */
+/* HERO */
 .hero {
   background: radial-gradient(ellipse at top, #1a2240 0%, #07080d 70%);
   overflow: hidden;
@@ -230,9 +222,7 @@ h1, h2, h3, h4 {
   50% { transform: translate(-50%, 4px); opacity: 1; }
 }
 
-/* ==========================================================================
-   CHOICE
-   ========================================================================== */
+/* CHOICE */
 .choice {
   background: var(--bg-1);
   text-align: center;
@@ -318,9 +308,7 @@ h1, h2, h3, h4 {
   color: var(--ink-mute);
 }
 
-/* ==========================================================================
-   MAP
-   ========================================================================== */
+/* MAP */
 .map-page { background: var(--bg-0); }
 .map-wrap {
   display: grid;
@@ -432,9 +420,7 @@ h1, h2, h3, h4 {
   color: var(--ink-mute);
 }
 
-/* ==========================================================================
-   Persistent floating time bar
-   ========================================================================== */
+/* Persistent floating time bar */
 .timebar {
   position: fixed;
   left: 24px;
@@ -522,10 +508,7 @@ h1, h2, h3, h4 {
 }
 .ticker-pill:hover .ticker-pill-icon { opacity: 1; }
 
-/* ==========================================================================
-   Newspaper clipping — pinned to the bottom-left of the viewport, but only
-   visible while the user is on the map section. No backdrop / blur.
-   ========================================================================== */
+/* Newspaper clipping (pinned bottom-left while on the map section) */
 .newspaper-overlay {
   position: fixed;
   bottom: 130px;      /* clear the floating timebar */
@@ -788,9 +771,7 @@ h1, h2, h3, h4 {
 }
 .country-path:hover { stroke: #fff; stroke-width: 1.5; }
 
-/* ==========================================================================
-   PRODUCTION
-   ========================================================================== */
+/* PRODUCTION */
 .production-page { background: var(--bg-1); }
 
 .production-controls {
@@ -916,9 +897,7 @@ h1, h2, h3, h4 {
 }
 .prod-legend span.muted { opacity: 0.3; }
 
-/* ==========================================================================
-   SHELF
-   ========================================================================== */
+/* SHELF */
 .shelf-page { background: var(--bg-0); }
 .shelf-controls {
   width: 100%;
@@ -1061,9 +1040,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
 }
 
-/* ==========================================================================
-   RECEIPT
-   ========================================================================== */
+/* RECEIPT */
 .receipt-page { background: var(--bg-1); padding-bottom: 200px; }
 body:not(.stage-hero):not(.stage-choice) .page { padding-bottom: 200px; }
 .receipt-wrap {
@@ -1175,9 +1152,7 @@ body:not(.stage-hero):not(.stage-choice) .page { padding-bottom: 200px; }
 .credits a { color: var(--accent); text-decoration: none; }
 .credits a:hover { text-decoration: underline; }
 
-/* ==========================================================================
-   Floating basket pill
-   ========================================================================== */
+/* Floating basket pill */
 .basket-pill {
   position: fixed;
   bottom: 110px; right: 24px;
@@ -1219,9 +1194,7 @@ body:not(.stage-hero):not(.stage-choice) .page { padding-bottom: 200px; }
 }
 .basket-link:hover { text-decoration: underline; }
 
-/* ==========================================================================
-   Scroll-lock toast
-   ========================================================================== */
+/* Scroll-lock toast */
 .lock-toast {
   position: fixed;
   top: 80px;
@@ -1276,9 +1249,7 @@ body.stage-choice #conclusion {
   display: none;
 }
 
-/* ==========================================================================
-   Bar race (top-10 most expensive grids)
-   ========================================================================== */
+/* Bar race (top-10 most expensive grids) */
 .bar-race-wrap {
   width: 100%;
   max-width: var(--maxw);
@@ -1310,9 +1281,7 @@ body.stage-choice #conclusion {
 }
 .bar-race svg { display: block; width: 100%; height: auto; }
 
-/* ==========================================================================
-   Map hint banner
-   ========================================================================== */
+/* Map hint banner */
 .map-hint {
   width: 100%;
   max-width: var(--maxw);
@@ -1332,9 +1301,7 @@ body.stage-choice #conclusion {
   padding: 6px 12px;
 }
 
-/* ==========================================================================
-   Country drill-down side panel
-   ========================================================================== */
+/* Country drill-down side panel */
 .side-drill {
   background: var(--bg-1);
   border: 1px solid var(--line-strong);
@@ -1449,9 +1416,7 @@ body.stage-choice #conclusion {
   stroke-width: 2;
 }
 
-/* ==========================================================================
-   Shelf date pill
-   ========================================================================== */
+/* Shelf date pill */
 .shelf-date-pill {
   background: var(--bg-2);
   border: 1px solid var(--line);
@@ -1469,9 +1434,7 @@ body.stage-choice #conclusion {
   font-style: italic;
 }
 
-/* ==========================================================================
-   Conflict comparison
-   ========================================================================== */
+/* Conflict comparison */
 .compare-page { background: var(--bg-0); padding-bottom: 200px; }
 .compare-chart {
   width: 100%;
@@ -1495,9 +1458,7 @@ body.stage-choice #conclusion {
 .cmp-leg-item { display: inline-flex; align-items: center; gap: 8px; }
 .cmp-leg-item i { width: 14px; height: 4px; border-radius: 2px; display: inline-block; }
 
-/* ==========================================================================
-   Conclusion
-   ========================================================================== */
+/* Conclusion */
 .conclusion-page {
   background:
     radial-gradient(ellipse at top, #1a2240 0%, #07080d 70%);
@@ -1584,9 +1545,7 @@ body.stage-choice #conclusion {
   font-style: italic;
 }
 
-/* ==========================================================================
-   Footer
-   ========================================================================== */
+/* Footer */
 .site-footer {
   text-align: center;
   padding: 30px 20px;
@@ -1598,9 +1557,7 @@ body.stage-choice #conclusion {
   border-top: 1px solid var(--line);
 }
 
-/* ==========================================================================
-   Responsive
-   ========================================================================== */
+/* Responsive */
 @media (max-width: 880px) {
   .nav-links { display: none; }
   .map-wrap { grid-template-columns: 1fr; }

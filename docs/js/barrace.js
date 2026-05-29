@@ -1,5 +1,4 @@
-/* Animated horizontal bar race for top-10 most expensive countries.
- * Lives below the map; ranks reorder live as the timeline slider moves. */
+// Animated bar race: top-10 priciest grids, reorders as the slider moves.
 (function () {
   const TOP_N = 10;
   let host, svg, g, x, y, color;

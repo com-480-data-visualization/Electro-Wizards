@@ -1,8 +1,4 @@
-/* Choropleth of monthly day-ahead electricity prices in Europe.
- * The time slider lives in the floating timebar (timebar.js) and pushes
- * monthIndex into the shared store, so we just react to that. Clicking a
- * country triggers the drilldown panel + advances the lock state machine.
- */
+// Europe choropleth. Reacts to monthIndex from the floating timebar.
 (function () {
   let svg, g, pathGen, projection, countriesNode, tooltipEl, colorScale;
 
@@ -62,7 +58,7 @@
       .on("click", function (event, d) {
         const iso2 = isoFor(d);
         if (!iso2) return;
-        // Only countries we have price data for are "useful" — quietly nudge for the rest.
+        // Ignore countries without price data; nudge the user instead.
         if (!PC.data.prices.values[iso2]) {
           PC.nudge && PC.nudge("No price data for this country.");
           return;
@@ -77,8 +73,7 @@
         // Dismiss the "click a country" hint.
         const hint = document.getElementById("map-hint");
         if (hint) hint.classList.add("dismissed");
-        // Do NOT auto-scroll — let the user explore the drill panel first and
-        // use the "See its energy mix ↓" CTA when they're ready.
+        // No auto-scroll: the drill panel CTA is how the user moves down.
       });
 
     renderLegend();

@@ -1,17 +1,6 @@
-/* Scroll-lock state machine.
- *
- *  STAGES:
- *    hero   -> can scroll between hero and choice
- *    choice -> conflict picked; map section becomes visible
- *    map    -> country picked; everything else becomes visible
- *
- *  We progress one-way only: hero -> choice -> map -> open. A "Reset" button
- *  drops us back to the hero stage.
- *
- *  Implementation: a class on <body> ("stage-hero" / "stage-choice" /
- *  "stage-map" / nothing) drives `display: none` rules on later sections. A
- *  small toast nudges the user when they try to scroll past the gate.
- */
+// One-way scroll lock: hero -> choice -> map -> open.
+// A body class drives display:none on later sections; a toast nudges the user
+// if they try to jump ahead.
 (function () {
   const STAGES = ["hero", "choice", "map", "open"];
 

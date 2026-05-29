@@ -1,4 +1,4 @@
-/* Stacked area chart of monthly production mix per country. */
+// Stacked area chart of monthly production mix per country.
 (function () {
   let chartEl, container;
   // Source -> color (sorted to match a natural mix order)
@@ -34,8 +34,7 @@
 
     sel.value = PC.state.prodCountry;
     sel.addEventListener("change", (e) => {
-      // Dropdown is a manual override — also bumps selectedCountry so the
-      // map highlight + shelf + receipt stay in sync with what's displayed.
+      // Manual dropdown override also bumps selectedCountry so map + shelf sync.
       PC.set({ prodCountry: e.target.value, selectedCountry: e.target.value });
     });
 
@@ -188,7 +187,7 @@
       marker.style("display", "none");
     }
 
-    // Slider position marker — follows the floating timebar
+    // Slider marker tracks the timebar.
     const sliderDate = PC.data.prices.dates[PC.state.monthIndex];
     const sliderX = sliderDate ? x(sliderDate) : null;
     let sliderMarker = g.select(".slider-marker");
@@ -209,8 +208,7 @@
       sliderMarker.style("display", "none");
     }
 
-    // (Annotation pills removed by user request — kept the helper around in
-    // case we want to bring them back later.)
+    // Annotation pills disabled; helper kept for now.
     g.selectAll(".annotation").remove();
 
     // Legend
@@ -237,16 +235,8 @@
     document.getElementById("prod-takeaway-text").textContent = takeawayFor(country, data, cw);
   }
 
-  /**
-   * Detect notable mix changes for a country and draw annotation pills
-   * pointing at the inflection points on the stacked area.
-   *
-   * Approach: for each energy source, compute the change in share between
-   * the average of the 12 months BEFORE the shock date and a 6-month window
-   * starting at the shock. Pick the top 2 absolute movers (≥ 5pp) and label
-   * them as floating pills with a connector line to the stacked area at
-   * the post-shock window's mid-point.
-   */
+  // Pick the 2 sources whose share changed most between the 12 months before
+  // the shock and the 6 months after, and draw labelled pills on the chart.
   function drawAnnotations(g, x, y, series, dates, sources, country, innerW, innerH) {
     const cw = PC.conflictWindow();
     const shockIdx = dates.indexOf(cw.shock);

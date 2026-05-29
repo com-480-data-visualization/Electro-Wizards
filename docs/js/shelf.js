@@ -1,5 +1,4 @@
-/* Visual "pantry shelf" of everyday items, hover -> tooltip with prices,
-   click -> add/remove from basket. */
+// Pantry shelf: hover an item for prices, click to add/remove from the basket.
 (function () {
   let stage, tooltipEl;
 

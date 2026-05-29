@@ -1,5 +1,4 @@
-/* The persistent floating timebar (slider + 2 play buttons + ticker mount).
- * Owns the slider/play UI; the actual monthIndex lives in PC.state. */
+// Floating timebar: slider + 2 play buttons. monthIndex lives in PC.state.
 (function () {
   let playing = false;       // is any play button active?
   let playTimer = null;

@@ -1,4 +1,4 @@
-/* Reveal-on-scroll for page headers + small UX helpers. */
+// Reveal-on-scroll for page headers.
 (function () {
   function init() {
     const headers = document.querySelectorAll(".page-header, .conflict-card");

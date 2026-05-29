@@ -1,4 +1,4 @@
-/* Conflict-choice page wiring + body class swap for palette. */
+// Conflict-choice page: clicking a flag sets the conflict + swaps the palette.
 (function () {
   function init() {
     const cards = document.querySelectorAll(".conflict-card");

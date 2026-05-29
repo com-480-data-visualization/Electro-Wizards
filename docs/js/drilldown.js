@@ -1,9 +1,4 @@
-/* Country drill-down side panel.
- * When the user clicks a country on the map (selectedCountry is set), we
- * swap the map sidebar from the "default" (avg price + event card + legend)
- * to a country-focused panel: a tiny price-vs-Europe-average chart and the
- * top-3 production sources.
- */
+// Country drill-down side panel: mini price chart vs EU avg + top sources.
 (function () {
   // Flag emojis indexed by ISO2 (used as a quick country chip).
   const FLAG = (iso2) => {
@@ -45,7 +40,7 @@
     document.getElementById("drill-sub").textContent =
       "Country focus · click another to compare";
 
-    // Stats — "before" baseline is a 12-month avg ending just before the
+    // Stats. "Before" baseline is a 12-month avg ending just before the
     // shock month, so seasonality doesn't dominate the comparison.
     const idx = PC.state.monthIndex;
     const arr = PC.data.prices.values[iso2] || [];

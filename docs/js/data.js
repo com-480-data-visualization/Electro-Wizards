@@ -1,13 +1,8 @@
-/* ========================================================================
-   Shared application state + data loader.
-   Exposes window.PC (Power & Conflict).
-   ======================================================================== */
+// State store + data loader. Everything attaches to window.PC.
 (function () {
   const PC = (window.PC = window.PC || {});
 
-  // -- ISO mapping helpers --------------------------------------------------
-  // Some of our datasets use ISO2 codes (FR, DE) that need to map to the
-  // numeric ISO codes used by the natural-earth topojson countries-50m file.
+  // ISO2 -> ISO3 to bridge our data with the world-atlas topojson IDs.
   PC.iso2to3 = {
     AT: "AUT", BE: "BEL", BG: "BGR", CH: "CHE", CY: "CYP", CZ: "CZE", DE: "DEU",
     DK: "DNK", EE: "EST", ES: "ESP", FI: "FIN", FR: "FRA", GB: "GBR", GR: "GRC",
@@ -44,7 +39,7 @@
     TR: "Turkey", XK: "Kosovo",
   };
 
-  // -- Reactive store -------------------------------------------------------
+  // Reactive store.
   const listeners = {};
   PC.state = {
     conflict: null,        // 'ukraine' | 'iran' | null
@@ -68,7 +63,7 @@
     (listeners[key] = listeners[key] || []).push(fn);
   };
 
-  // -- Data load ------------------------------------------------------------
+  // Data load.
   PC.data = {};
   PC.ready = Promise.all([
     fetch("data/prices_monthly.json").then((r) => r.json()),
@@ -85,8 +80,7 @@
     return PC.data;
   });
 
-  // -- Conflict-aware helpers ----------------------------------------------
-  // Anchor month for "before the shock" and the chosen conflict's peak month.
+  // Conflict-aware helpers.
   PC.conflictWindow = function () {
     if (PC.state.conflict === "ukraine") {
       return { before: "2021-06", shock: "2022-02", peak: "2022-08", focusYear: 2022 };
@@ -108,8 +102,7 @@
     return active;
   };
 
-  // Mean price over the 12 months ending one month BEFORE the shock month.
-  // This smooths out seasonality and gives a stable "pre-shock" reference.
+  // 12-month rolling avg ending the month before the shock (smooths seasonality).
   PC.preShockBaseline = function (iso2) {
     const arr = PC.data.prices.values[iso2];
     if (!arr) return null;

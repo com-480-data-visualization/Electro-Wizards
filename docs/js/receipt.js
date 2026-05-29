@@ -1,4 +1,4 @@
-/* Conflict receipt: itemised before / peak / latest prices for the basket. */
+// Receipt: before / peak / latest prices for everything in the basket.
 (function () {
   let pillEl;
 
@@ -76,7 +76,7 @@
           (Add items from the shelf above)
         </div>`;
       totalsHost.innerHTML = "";
-      metaHost.textContent = "Empty basket — wander up to the shelf.";
+      metaHost.textContent = "Empty basket, wander up to the shelf.";
       updatePill(0);
       return;
     }
